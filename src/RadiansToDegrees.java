@@ -1,2 +1,7 @@
+import java.util.Scanner;
+
 public class RadiansToDegrees {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+    }
 }
