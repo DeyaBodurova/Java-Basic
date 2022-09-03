@@ -14,7 +14,7 @@ public class Repainting {
         double sumSupplies = nylonSum + paintSum + thinnerSum
                 + 0.4;
 
-        double maistorsPayment = (sumSupplies * 0.03) * hours;
+        double maistorsPayment = (sumSupplies * 0.3) * hours;
         double finalSum = sumSupplies + maistorsPayment;
         System.out.print(finalSum);
     }
