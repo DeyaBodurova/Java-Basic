@@ -7,5 +7,7 @@ public class Repainting {
         int paint = Integer.parseInt(sc.nextLine());
         int thinner = Integer.parseInt(sc.nextLine());
         int hours = Integer.parseInt(sc.nextLine());
+
+        double sum = ()
     }
 }
