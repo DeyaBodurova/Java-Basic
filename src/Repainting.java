@@ -8,6 +8,6 @@ public class Repainting {
         int thinner = Integer.parseInt(sc.nextLine());
         int hours = Integer.parseInt(sc.nextLine());
 
-        double sum = ()
+        double sum = (naylon + 2)
     }
 }
