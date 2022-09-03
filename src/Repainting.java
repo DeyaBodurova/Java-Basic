@@ -5,6 +5,6 @@ public class Repainting {
         Scanner sc = new Scanner(System.in);
         int naylon = Integer.parseInt(sc.nextLine());
         int paint = Integer.parseInt(sc.nextLine());
-        int paint = Integer.parseInt(sc.nextLine());
+        int thinner = Integer.parseInt(sc.nextLine());
     }
 }
