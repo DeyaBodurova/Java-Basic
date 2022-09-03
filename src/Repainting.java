@@ -12,5 +12,9 @@ public class Repainting {
                 ((paint + (paint * 0.01)) * 14.5)
                 + thinner * 5.0
                 + 0.4;
+
+        double maistorsPayment = (sumSupplies * 0.03) * hours;
+        double finalSum = sumSupplies + maistorsPayment;
+        System.out.printf("%.2f",finalSum);
     }
 }
