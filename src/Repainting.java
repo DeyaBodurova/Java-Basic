@@ -6,5 +6,6 @@ public class Repainting {
         int naylon = Integer.parseInt(sc.nextLine());
         int paint = Integer.parseInt(sc.nextLine());
         int thinner = Integer.parseInt(sc.nextLine());
+        int hours = Integer.parseInt(sc.nextLine());
     }
 }
