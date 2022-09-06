@@ -16,8 +16,7 @@ public class BonusScore {
 
         if (num % 2 == 0) {
             bonus += 1;
-        }
-        if (num % 5 == 0) {
+        } else if (num % 5 == 0) {
             bonus += 2;
         }
 
