@@ -4,7 +4,7 @@ public class BonusScore {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int num = Integer.parseInt(sc.nextLine());
-        int bonus = 0;
+        double bonus = 0;
 
         if (num < 100) {
             bonus += 5;
@@ -17,5 +17,11 @@ public class BonusScore {
         if (num % 2 == 0) {
             bonus += 1;
         }
+        if (num % 5 == 0) {
+            bonus += 2;
+        }
+
+        System.out.println(bonus);
+        System.out.println(num + bonus);
     }
 }
