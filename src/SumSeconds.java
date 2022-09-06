@@ -17,6 +17,10 @@ public class SumSeconds {
             min = 0;
             sec = sum;
         }
-        System.out.printf("%d:%.2f",min,sec);
+        if (sec < 10) {
+            System.out.printf("%d:0%d", min, sec);
+        } else {
+            System.out.printf("%d:%d", min, sec);
+        }
     }
 }
