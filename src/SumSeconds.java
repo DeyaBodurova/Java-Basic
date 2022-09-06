@@ -8,9 +8,15 @@ public class SumSeconds {
         int thirdTime = Integer.parseInt(sc.nextLine());
 
         int sum = firstTime + secondTime + thirdTime;
+        int min;
+        int sec;
         if (sum > 59) {
-            int min = sum / 60;
-            int sec = sum % 60;
+            min = sum / 60;
+            sec = sum % 60;
+        } else {
+            min = 0;
+            sec = sum;
         }
+        System.out.printf("%d:%.2f",min,sec);
     }
 }
