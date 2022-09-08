@@ -22,7 +22,7 @@ public class ToyShop {
         totalToysSum = totalToysSum - (totalToysSum * 0.1);
 
         if (tripPrice <= totalToysSum) {
-            System.out.printf("Yes! %.2f lv left.", tripPrice - totalToysSum);
+            System.out.printf("Yes! %.2f lv left.", Math.abs(tripPrice - totalToysSum));
         } else {
             System.out.printf("Not enough money! %.2f lv needed.", Math.abs(totalToysSum - tripPrice));
         }
