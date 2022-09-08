@@ -21,7 +21,9 @@ public class ToyShop {
         }
         totalToysSum = totalToysSum - (totalToysSum *0.1);
 
-        if(){}
+        if(tripPrice >= totalToysSum){
+            System.out.printf("Yes! %.2f lv left.",tripPrice - totalToysSum);
+        } else {}
 
     }
 }
