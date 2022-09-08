@@ -6,6 +6,9 @@ public class TimePlus15Minutes {
         int hour = Integer.parseInt(sc.nextLine());
         int minutes = Integer.parseInt(sc.nextLine());
 
-
+        int sum = hour + minutes;
+        int newHour= sum/60;
+        int newMin= sum%60;
+        System.out.println(newHour+":"+newMin);
     }
 }
