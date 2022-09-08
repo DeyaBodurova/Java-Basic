@@ -13,9 +13,9 @@ public class TimePlus15Minutes {
         }
         int newMin= sum%60;
         if(newMin<10){
-            System.out.printf(newHour+":0"+newMin);
+            System.out.println(newHour+":0"+newMin);
         } else {
-            System.out.printf( newHour+":"+newMin);
+            System.out.println( newHour+":"+newMin);
         }
     }
 }
