@@ -10,5 +10,13 @@ public class ToyShop {
         int minionsCount = Integer.parseInt(sc.nextLine());
         int truckCount = Integer.parseInt(sc.nextLine());
 
+        int totalCountToys = puzzleCount + dollCount + teddyBearCount
+                + minionsCount + truckCount;
+        double totalToysSum
+
+        if() {
+
+        }
+
     }
 }
