@@ -23,7 +23,9 @@ public class ToyShop {
 
         if(tripPrice >= totalToysSum){
             System.out.printf("Yes! %.2f lv left.",tripPrice - totalToysSum);
-        } else {}
+        } else {
+            System.out.printf("Not enough money! %.2f lv needed.",Math.abs(totalToysSum-tripPrice));
+        }
 
     }
 }
