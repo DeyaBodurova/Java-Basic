@@ -20,6 +20,7 @@ public class ToyShop {
             totalToysSum = totalToysSum - (totalToysSum * 0.25);
         }
         totalToysSum = totalToysSum - (totalToysSum *0.1);
+
         if(){}
 
     }
