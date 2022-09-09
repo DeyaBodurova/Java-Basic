@@ -13,6 +13,9 @@ public class GodzillaVsKong {
         if (budget < sum) {
             System.out.println("Not enough money!");
             System.out.printf("Wingard needs %.2f leva more.", Math.abs(sum - budget));
+        } else {
+            System.out.println("Action!");
+            System.out.printf("Wingard starts filming with %.2f leva left.", Math.abs(budget - sum));
         }
     }
 }
