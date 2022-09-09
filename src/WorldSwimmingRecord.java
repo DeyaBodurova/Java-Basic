@@ -7,5 +7,9 @@ public class WorldSwimmingRecord {
         double distanceMeter = Double.parseDouble(sc.nextLine());
         double swimmingTimeMeterPerSec = Double.parseDouble(sc.nextLine());
 
+        for (int i = 0; i < distanceMeter; i++) {
+            if (i % 15 == 0) {
+            }
+        }
     }
 }
