@@ -13,10 +13,10 @@ public class WorldSwimmingRecord {
 
         if(totalTime < recordSec){
             System.out.printf("Yes, he succeeded!" +
-                    " The new world record is %f seconds.",totalTime);
+                    " The new world record is %.2f seconds.",totalTime);
         } else {
             System.out.printf("No, he failed! " +
-                    "He was %f seconds slower.", totalTime - recordSec);
+                    "He was %.2f seconds slower.", totalTime - recordSec);
         }
     }
 }
