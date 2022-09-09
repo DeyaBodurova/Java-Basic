@@ -8,7 +8,8 @@ public class WorldSwimmingRecord {
         double swimmingTimeMeterPerSec = Double.parseDouble(sc.nextLine());
 
         double swimmingTimeInSec = distanceMeter * swimmingTimeMeterPerSec;
-        double slowing = distanceMeter / 15;
+       int temp = (int) (distanceMeter/15);
+        double slowing = temp *12.5;
         double totalTime = swimmingTimeInSec + slowing;
 
         if(totalTime < recordSec){
