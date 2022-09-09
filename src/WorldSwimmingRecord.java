@@ -10,5 +10,10 @@ public class WorldSwimmingRecord {
         double swimmingTimeInSec = distanceMeter * swimmingTimeMeterPerSec;
         double slowing = distanceMeter / 15;
         double totalTime = swimmingTimeInSec + slowing;
+
+        if(totalTime < recordSec){
+            System.out.printf("Yes, he succeeded!" +
+                    " The new world record is %f seconds.",totalTime);
+        }
     }
 }
