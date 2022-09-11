@@ -12,16 +12,20 @@ public class LunchBreak {
 
         double totalTime = timeBreak-(lunchTime + relaxTime);
 
-        if(timeEpisode <= totalTime){
+        if(timeEpisode < totalTime){
             System.out.printf("You have enough time to watch " +
-                    "%s and left with %f" +
+                    "%s and left with %.2f" +
                     " minutes free time.", movie,
-                    Math.abs(totalTime-timeEpisode));
+                    Math.ceil(totalTime-timeEpisode));
+        } else if(timeEpisode == totalTime) {
+            System.out.printf("You have enough time to watch " +
+                            "%s and left with 0" +
+                            " minutes free time.", movie);
         } else {
             System.out.printf("You don't have enough time to " +
                     "watch %s, you need " +
-                    "%f more minutes.",movie,
-                    Math.abs(timeEpisode-totalTime));
+                    "%.2f more minutes.",movie,
+                    Math.ceil(timeEpisode-totalTime));
         }
     }
 }
