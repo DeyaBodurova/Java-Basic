@@ -7,5 +7,7 @@ public class Shopping {
         int videoCardsCount= Integer.parseInt(sc.nextLine());
         int CPUCount= Integer.parseInt(sc.nextLine());
         int RAMCount= Integer.parseInt(sc.nextLine());
+
+
     }
 }
