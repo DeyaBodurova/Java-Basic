@@ -6,5 +6,22 @@ public class LunchBreak {
         String movie = sc.nextLine();
         int timeEpisode = Integer.parseInt(sc.nextLine());
         int timeBreak = Integer.parseInt(sc.nextLine());
+
+        double lunchTime = timeBreak / 8;
+        double relaxTime = timeBreak / 4;
+
+        double totalTime = lunchTime + relaxTime;
+
+        if(timeEpisode <= totalTime){
+            System.out.printf("You have enough time to watch " +
+                    "%s and left with %f" +
+                    " minutes free time.", movie,
+                    Math.abs(totalTime-timeEpisode));
+        } else {
+            System.out.printf("You don't have enough time to " +
+                    "watch %s, you need " +
+                    "%f more minutes.",movie,
+                    Math.abs(timeEpisode-totalTime));
+        }
     }
 }
