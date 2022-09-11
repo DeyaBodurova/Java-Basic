@@ -7,10 +7,10 @@ public class LunchBreak {
         int timeEpisode = Integer.parseInt(sc.nextLine());
         int timeBreak = Integer.parseInt(sc.nextLine());
 
-        double lunchTime = timeBreak / 8;
-        double relaxTime = timeBreak / 4;
+        double lunchTime = timeBreak / 8.0;
+        double relaxTime = timeBreak / 4.0;
 
-        double totalTime = lunchTime + relaxTime;
+        double totalTime = timeBreak-(lunchTime + relaxTime);
 
         if(timeEpisode <= totalTime){
             System.out.printf("You have enough time to watch " +
