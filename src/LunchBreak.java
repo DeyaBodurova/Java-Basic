@@ -14,7 +14,7 @@ public class LunchBreak {
 
         if(timeEpisode < totalTime){
             System.out.printf("You have enough time to watch " +
-                    "%s and left with %.2f" +
+                    "%s and left with %.0f" +
                     " minutes free time.", movie,
                     Math.ceil(totalTime-timeEpisode));
         } else if(timeEpisode == totalTime) {
@@ -24,7 +24,7 @@ public class LunchBreak {
         } else {
             System.out.printf("You don't have enough time to " +
                     "watch %s, you need " +
-                    "%.2f more minutes.",movie,
+                    "%.0f more minutes.",movie,
                     Math.ceil(timeEpisode-totalTime));
         }
     }
