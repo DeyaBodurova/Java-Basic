@@ -17,9 +17,12 @@ public class Shopping {
             total = total - (total * 0.15);
         }
 
-        if(budget >= total) {
+        if (budget >= total) {
             System.out.printf("You have %.2f leva left!",
                     Math.abs(budget - total));
-        } else {}
+        } else {
+            System.out.printf("Not enough money! You need %.2f leva more!",
+                    Math.abs(total - budget));
+        }
     }
 }
