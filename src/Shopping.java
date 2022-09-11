@@ -16,5 +16,10 @@ public class Shopping {
         if (videoCardsCount > CPUCount) {
             total = total - (total * 0.15);
         }
+
+        if(budget >= total) {
+            System.out.printf("You have %.2f leva left!",
+                    Math.abs(budget - total));
+        } else {}
     }
 }
