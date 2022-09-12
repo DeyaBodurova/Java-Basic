@@ -5,9 +5,9 @@ public class BasketballEquipment {
         Scanner sc = new Scanner(System.in);
         int tax = Integer.parseInt(sc.nextLine());
         double sneakers = tax - (tax * 0.4);
-        double clothes = sneakers - (sneakers*0.2);
-        double ball = clothes /4.0;
-        double accessories = ball /5.0;
+        double clothes = sneakers - (sneakers * 0.2);
+        double ball = clothes / 4.0;
+        double accessories = ball / 5.0;
 
         double sum = tax + sneakers + clothes
                 + ball + accessories;
