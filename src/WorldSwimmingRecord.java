@@ -13,8 +13,7 @@ public class WorldSwimmingRecord {
         double totalTime = swimmingTimeInSec + slowing;
 
         if (totalTime < recordSec) {
-            System.out.printf("Yes, he succeeded!" +
-                    " The new world record is %.2f seconds.", totalTime);
+            System.out.printf("Yes, he succeeded!The new world record is %.2f seconds.", totalTime);
         } else {
             System.out.printf("No, he failed! " +
                     "He was %.2f seconds slower.", totalTime - recordSec);
