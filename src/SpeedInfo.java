@@ -10,7 +10,7 @@ public class SpeedInfo {
             System.out.println("average");
         } else if (n <= 150) {
             System.out.println("fast");
-        } else if (n<=1000) {
+        } else if (n <= 1000) {
             System.out.println("ultra fast");
         } else {
             System.out.println("extremely fast");
