@@ -6,7 +6,7 @@ public class ProjectCreation {
         String name = sc.nextLine();
         int projects = Integer.parseInt(sc.nextLine());
 
-        System.out.printf("The architect %s" +
-                " will need %d hours to complete %d project/s.", name, projects * 3, projects);
+        System.out.printf("The architect %s will need %d hours to complete %d project/s.",
+                name, projects * 3, projects);
     }
 }
