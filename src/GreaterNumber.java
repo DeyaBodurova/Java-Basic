@@ -6,7 +6,7 @@ public class GreaterNumber {
         int a = Integer.parseInt(sc.nextLine());
         int b = Integer.parseInt(sc.nextLine());
 
-        if(a>=b){
+        if (a >= b) {
             System.out.println(a);
         } else {
             System.out.println(b);
