@@ -8,7 +8,7 @@ public class YardGreening {
         double sum = totallMeters * oneSqrM;
         double discount = sum * 0.18;
         double finalSum = sum - discount;
-        System.out.printf("The final price is: %.2f lv.",finalSum);
-        System.out.printf("The discount is: %.2f lv.",discount);
+        System.out.printf("The final price is: %.2f lv.", finalSum);
+        System.out.printf("The discount is: %.2f lv.", discount);
     }
 }
