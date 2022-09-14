@@ -8,7 +8,7 @@ public class AreaOfFigures {
         double length=0;
         switch (figure) {
             case "square" -> {
-                 length = Double.parseDouble(sc.nextLine());
+                double length = Double.parseDouble(sc.nextLine());
                 area = length * length;
             }
             case "rectangle" -> {
