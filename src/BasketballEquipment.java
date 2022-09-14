@@ -9,8 +9,7 @@ public class BasketballEquipment {
         double ball = clothes / 4.0;
         double accessories = ball / 5.0;
 
-        double sum = tax + sneakers + clothes
-                + ball + accessories;
+        double sum = tax + sneakers + clothes + ball + accessories;
         System.out.println(sum);
     }
 }
