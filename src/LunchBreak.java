@@ -6,7 +6,6 @@ public class LunchBreak {
         String movie = sc.nextLine();
         int timeEpisode = Integer.parseInt(sc.nextLine());
         int timeBreak = Integer.parseInt(sc.nextLine());
-
         double lunchTime = timeBreak / 8.0;
         double relaxTime = timeBreak / 4.0;
 
