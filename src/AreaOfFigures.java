@@ -12,9 +12,9 @@ public class AreaOfFigures {
                 area = length * length;
             }
             case "rectangle" -> {
-                length = Double.parseDouble(sc.nextLine());
+                double a = Double.parseDouble(sc.nextLine());
                 double b = Double.parseDouble(sc.nextLine());
-                area = length * b;
+                area = a * b;
             }
             case "circle" -> {
                 double radius = Double.parseDouble(sc.nextLine());
