@@ -8,7 +8,6 @@ public class LunchBreak {
         int timeBreak = Integer.parseInt(sc.nextLine());
         double lunchTime = timeBreak / 8.0;
         double relaxTime = timeBreak / 4.0;
-
         double totalTime = timeBreak - (lunchTime + relaxTime);
 
         if (timeEpisode < totalTime) {
