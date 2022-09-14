@@ -22,6 +22,5 @@ public class LunchBreak {
                     Math.ceil(timeEpisode - totalTime));
         }
 
-
     }
 }
