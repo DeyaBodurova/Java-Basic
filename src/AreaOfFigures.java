@@ -5,15 +5,16 @@ public class AreaOfFigures {
         Scanner sc = new Scanner(System.in);
         String figure = sc.nextLine();
         double area =0;
+        double length=0;
         switch (figure) {
             case "square" -> {
-                double length = Double.parseDouble(sc.nextLine());
+                 length = Double.parseDouble(sc.nextLine());
                 area = length * length;
             }
             case "rectangle" -> {
-                double a = Double.parseDouble(sc.nextLine());
+                length = Double.parseDouble(sc.nextLine());
                 double b = Double.parseDouble(sc.nextLine());
-                area = a * b;
+                area = length * b;
             }
             case "circle" -> {
                 double radius = Double.parseDouble(sc.nextLine());
