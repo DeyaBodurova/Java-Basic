@@ -14,5 +14,4 @@ public class FoodDelivery {
         System.out.println(total);
 
     }
-
 }
