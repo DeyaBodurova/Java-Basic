@@ -12,5 +12,6 @@ public class FoodDelivery {
         double dessert = sum * 0.2;
         double total = sum + dessert + 2.5;
         System.out.println(total);
+
     }
 }
