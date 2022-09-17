@@ -5,7 +5,6 @@ public class RectangleArea {
         Scanner sc = new Scanner(System.in);
         int a = Integer.parseInt(sc.nextLine());
         int b = Integer.parseInt(sc.nextLine());
-
         int area = a * b;
         System.out.println(area);
     }
