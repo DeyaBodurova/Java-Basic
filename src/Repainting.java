@@ -8,9 +8,9 @@ public class Repainting {
         int thinner = Integer.parseInt(sc.nextLine());
         int hours = Integer.parseInt(sc.nextLine());
 
-        double nylonSum = (naylon +2) *1.5;
-        double paintSum = 14.5*(paint+(paint*0.1));
-        double thinnerSum= thinner * 5.0;
+        double nylonSum = (naylon + 2) * 1.5;
+        double paintSum = 14.5 * (paint + (paint * 0.1));
+        double thinnerSum = thinner * 5.0;
         double sumSupplies = nylonSum + paintSum + thinnerSum + 0.4;
 
         double maistorsPayment = (sumSupplies * 0.3) * hours;
