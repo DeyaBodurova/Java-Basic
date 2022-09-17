@@ -9,7 +9,6 @@ public class ToyShop {
         int teddyBearCount = Integer.parseInt(sc.nextLine());
         int minionsCount = Integer.parseInt(sc.nextLine());
         int truckCount = Integer.parseInt(sc.nextLine());
-
         int totalCountToys = puzzleCount + dollCount + teddyBearCount + minionsCount + truckCount;
         double totalToysSum = (puzzleCount * 2.6) + (dollCount * 3.0) + (teddyBearCount * 4.1) + (minionsCount * 8.2) + (truckCount * 2.0);
         if (totalCountToys >= 50) {
