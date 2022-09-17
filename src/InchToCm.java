@@ -5,7 +5,6 @@ public class InchToCm {
         Scanner sc = new Scanner(System.in);
         double sum = Double.parseDouble(sc.nextLine()) * 2.54;
         System.out.println(sum);
-
     }
 }
 
