@@ -7,7 +7,6 @@ public class FishTank {
         int wight = Integer.parseInt(sc.nextLine());
         int height = Integer.parseInt(sc.nextLine());
         double percent = Double.parseDouble(sc.nextLine());
-
         double volume = length * wight * height;
         double volumeLitters = volume * 0.001;
         double neededLitters = volumeLitters * (1 - (percent * 0.01));
