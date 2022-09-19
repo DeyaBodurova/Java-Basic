@@ -6,7 +6,6 @@ public class DepositCalculator {
         double deposit = Double.parseDouble(sc.nextLine());
         int period = Integer.parseInt(sc.nextLine());
         double percent = Double.parseDouble(sc.nextLine());
-
         double sum = deposit + period * ((deposit * (percent * 0.01)) / 12.0);
         System.out.println(sum);
     }
