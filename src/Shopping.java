@@ -12,7 +12,6 @@ public class Shopping {
         double cpuPrice = CPUCount * (videoPrice * 0.35);
         double ramPrice = RAMCount * (videoPrice * 0.1);
         double total = videoPrice + cpuPrice + ramPrice;
-
         if (videoCardsCount > CPUCount) {
             total = total - (total * 0.15);
         }
