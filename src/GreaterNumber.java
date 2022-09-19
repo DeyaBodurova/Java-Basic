@@ -5,11 +5,6 @@ public class GreaterNumber {
         Scanner sc = new Scanner(System.in);
         int a = Integer.parseInt(sc.nextLine());
         int b = Integer.parseInt(sc.nextLine());
-
-        if (a >= b) {
-            System.out.println(a);
-        } else {
-            System.out.println(b);
-        }
+        System.out.println(Math.max(a, b));
     }
 }
