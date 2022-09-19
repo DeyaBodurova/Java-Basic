@@ -11,7 +11,6 @@ public class GodzillaVsKong {
             clothes = clothes - (clothes * 0.1);
         }
         double sum = (statist * clothes) + decor;
-
         if (budget < sum) {
             System.out.println("Not enough money!");
             System.out.printf("Wingard needs %.2f leva more.", Math.abs(sum - budget));
