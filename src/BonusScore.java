@@ -19,7 +19,6 @@ public class BonusScore {
         } else if (num % 5 == 0) {
             bonus += 2;
         }
-
         System.out.println(bonus);
         System.out.println(num + bonus);
     }
