@@ -7,7 +7,6 @@ public class GodzillaVsKong {
         int statist = Integer.parseInt(sc.nextLine());
         double clothes = Double.parseDouble(sc.nextLine());
         double decor = budget * 0.1;
-
         if (statist > 150) {
             clothes = clothes - (clothes * 0.1);
         }
