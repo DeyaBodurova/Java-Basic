@@ -4,7 +4,7 @@ public class AreaOfFigures {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         String figure = sc.nextLine();
-        double area =0;
+        double area = 0;
         switch (figure) {
             case "square" -> {
                 double length = Double.parseDouble(sc.nextLine());
@@ -25,6 +25,6 @@ public class AreaOfFigures {
                 area = (c * d) / 2;
             }
         }
-        System.out.printf("%.3f",area);
+        System.out.printf("%.3f", area);
     }
 }
