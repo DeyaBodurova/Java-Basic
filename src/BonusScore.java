@@ -5,7 +5,6 @@ public class BonusScore {
         Scanner sc = new Scanner(System.in);
         int num = Integer.parseInt(sc.nextLine());
         double bonus = 0;
-
         if (num < 100) {
             bonus += 5;
         } else if (num > 100 && num <= 1000) {
