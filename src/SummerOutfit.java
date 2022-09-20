@@ -5,5 +5,6 @@ public class SummerOutfit {
         Scanner sc = new Scanner(System.in);
         int degrees = Integer.parseInt(sc.nextLine());
         String dayTime = sc.nextLine();
+
     }
 }
