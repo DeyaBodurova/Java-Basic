@@ -6,15 +6,20 @@ public class Cinema {
         String projection = sc.nextLine();
         int rows = Integer.parseInt(sc.nextLine());
         int cols = Integer.parseInt(sc.nextLine());
+        double ticketPrice;
         switch (projection) {
             case "Premiere":
+                ticketPrice = 12.0;
                 break;
             case "Normal":
+                ticketPrice = 7.5;
                 break;
             case "Discount":
+                ticketPrice = 5.0;
                 break;
             default:
                 System.out.println("Invalid projection");
         }
+        double cost = rows * cols * ticketPrice;
     }
 }
