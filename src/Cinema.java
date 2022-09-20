@@ -6,6 +6,15 @@ public class Cinema {
         String projection = sc.nextLine();
         int rows = Integer.parseInt(sc.nextLine());
         int cols = Integer.parseInt(sc.nextLine());
-
+        switch (projection) {
+            case "Premiere":
+                break;
+            case "Premiere":
+                break;
+            case "Premiere":
+                break;
+            default:
+                System.out.println("Invalid projection");
+        }
     }
 }
