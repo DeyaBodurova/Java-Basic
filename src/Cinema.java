@@ -9,9 +9,9 @@ public class Cinema {
         switch (projection) {
             case "Premiere":
                 break;
-            case "Premiere":
+            case "Normal":
                 break;
-            case "Premiere":
+            case "Discount":
                 break;
             default:
                 System.out.println("Invalid projection");
