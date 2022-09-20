@@ -6,13 +6,12 @@ public class Cinema {
         String projection = sc.nextLine();
         int rows = Integer.parseInt(sc.nextLine());
         int cols = Integer.parseInt(sc.nextLine());
-        double ticketPrice;
-        switch (projection) {
-            case "Premiere":ticketPrice = 12.0; break;
-            case "Normal": ticketPrice = 7.5;break;
-            case "Discount":ticketPrice = 5.0;break;
-            default:ticketPrice = 0;
-        }
+        double ticketPrice = switch (projection) {
+            case "Premiere" -> 12.0;
+            case "Normal" -> 7.5;
+            case "Discount" -> 5.0;
+            default -> 0;
+        };
         double cost = rows * cols * ticketPrice;
         System.out.printf("%.2f leva", cost);
     }
