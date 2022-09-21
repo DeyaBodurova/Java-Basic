@@ -8,7 +8,7 @@ public class NewHouse {
         int budget = Integer.parseInt(sc.nextLine());
         double change;
         double total;
-        double price;
+        double price = 0;
         switch (flower){
             case "Roses":
                 price = 5.0;
@@ -27,7 +27,10 @@ public class NewHouse {
                 break;
         }
         total = price * count;
-        if(){}
+        if(flower.equalsIgnoreCase("Roses")
+        && (count > 80)){
+            total = total - (total * 0.1);
+        }
 
         if (budget >= total) {
             System.out.printf("Hey, you have a great " +
