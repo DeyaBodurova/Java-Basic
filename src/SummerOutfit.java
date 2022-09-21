@@ -38,7 +38,7 @@ public class SummerOutfit {
                     shoes = "Sandals";
                     break;
                 case "Afternoon":
-                    outfit= "Swim Suit";
+                    outfit = "Swim Suit";
                     shoes = "Barefoot";
                     break;
                 case "Evening":
