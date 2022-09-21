@@ -20,15 +20,14 @@ public class SummerOutfit {
             }
         } else if (18 <= degrees && degrees <= 24) {
             switch (dayTime) {
-                case "Morning":
-                case "Evening":
+                case "Morning", "Evening" -> {
                     outfit = "Shirt";
                     shoes = "Moccasins";
-                    break;
-                case "Afternoon":
+                }
+                case "Afternoon" -> {
                     outfit = "T-Shirt";
                     shoes = "Sandals";
-                    break;
+                }
             }
         } else if (degrees >= 25) {
             switch (dayTime) {
