@@ -7,10 +7,16 @@ public class NewHouse {
         int count = Integer.parseInt(sc.nextLine());
         int budget = Integer.parseInt(sc.nextLine());
         double change;
+        double total;
 
-        System.out.printf("Hey, you have a great " +
-                "garden with %d %s " +
-                "and %.2f leva left.",
-                count, flower, change);
+        if (budget >= total) {
+            System.out.printf("Hey, you have a great " +
+                            "garden with %d %s " +
+                            "and %.2f leva left.",
+                    count, flower, change);
+        } else {
+            System.out.printf("Not enough money, you need " +
+                    "%.2f leva more.", Math.abs(total - budget));
+        }
     }
 }
