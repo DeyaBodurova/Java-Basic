@@ -7,7 +7,6 @@ public class SummerOutfit {
         String dayTime = sc.nextLine();
         String outfit = "";
         String shoes = "";
-
         if (10 <= degrees && degrees <= 18) {
             switch (dayTime) {
                 case "Morning" -> {
