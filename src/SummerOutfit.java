@@ -31,18 +31,18 @@ public class SummerOutfit {
             }
         } else if (degrees >= 25) {
             switch (dayTime) {
-                case "Morning":
+                case "Morning" -> {
                     outfit = "T-Shirt";
                     shoes = "Sandals";
-                    break;
-                case "Afternoon":
+                }
+                case "Afternoon" -> {
                     outfit = "Swim Suit";
                     shoes = "Barefoot";
-                    break;
-                case "Evening":
+                }
+                case "Evening" -> {
                     outfit = "Shirt";
                     shoes = "Moccasins";
-                    break;
+                }
             }
         }
         System.out.printf("It's %d degrees, get your %s" +
