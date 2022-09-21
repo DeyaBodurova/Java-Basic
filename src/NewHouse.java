@@ -8,6 +8,26 @@ public class NewHouse {
         int budget = Integer.parseInt(sc.nextLine());
         double change;
         double total;
+        double price;
+        switch (flower){
+            case "Roses":
+                price = 5.0;
+                break;
+            case "Dahlias":
+                price = 3.8;
+                break;
+            case "Tulips":
+                price = 2.8;
+                break;
+            case "Narcissus":
+                price = 3.0;
+                break;
+            case "Gladiolus":
+                price = 2.5;
+                break;
+        }
+        total = price * count;
+        if(){}
 
         if (budget >= total) {
             System.out.printf("Hey, you have a great " +
