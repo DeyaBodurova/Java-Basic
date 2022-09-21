@@ -19,6 +19,7 @@ public class SummerOutfit {
                     shoes = "Moccasins";
                 }
             }
+
         } else if (18 <= degrees && degrees <= 24) {
             switch (dayTime) {
                 case "Morning", "Evening" -> {
