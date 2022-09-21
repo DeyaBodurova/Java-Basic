@@ -5,6 +5,7 @@ public class NewHouse {
         Scanner sc = new Scanner(System.in);
         String flower = sc.nextLine();
         int count = Integer.parseInt(sc.nextLine());
+        int budget = Integer.parseInt(sc.nextLine());
 
 
     }
