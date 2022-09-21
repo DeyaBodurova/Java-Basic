@@ -9,15 +9,14 @@ public class SummerOutfit {
         String shoes = "";
         if (10 <= degrees && degrees <= 18) {
             switch (dayTime) {
-                case "Morning":
+                case "Morning" -> {
                     outfit = "Sweatshirt";
                     shoes = "Sneakers";
-                    break;
-                case "Afternoon":
-                case "Evening":
+                }
+                case "Afternoon", "Evening" -> {
                     outfit = "Shirt";
                     shoes = "Moccasins";
-                    break;
+                }
             }
         } else if (18 <= degrees && degrees <= 24) {
             switch (dayTime) {
