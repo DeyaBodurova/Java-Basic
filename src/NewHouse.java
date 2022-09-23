@@ -16,8 +16,7 @@ public class NewHouse {
             default -> 0;
         };
         total = price * count;
-        if(flower.equalsIgnoreCase("Roses")
-        && (count > 80)){
+        if(flower.equalsIgnoreCase("Roses") && (count > 80)){
             total = total - (total * 0.1);
         }
         if(flower.equalsIgnoreCase("Dahlias") && count > 90) {
