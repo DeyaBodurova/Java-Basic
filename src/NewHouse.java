@@ -40,8 +40,7 @@ public class NewHouse {
             System.out.printf("Hey, you have a great garden with %d %s and %.2f leva left.",
                     count, flower, Math.abs(budget - total));
         } else {
-            System.out.printf("Not enough money, you need " +
-                    "%.2f leva more.", Math.abs(total - budget));
+            System.out.printf("Not enough money, you need " + "%.2f leva more.", Math.abs(total - budget));
         }
     }
 }
