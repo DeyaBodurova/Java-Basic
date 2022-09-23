@@ -14,6 +14,7 @@ public class NewHouse {
             case "Narcissus" -> 3.0;
             case "Gladiolus" -> 2.5;
             default -> 0;
+
         };
         total = price * count;
         if(flower.equalsIgnoreCase("Roses")
