@@ -28,8 +28,7 @@ public class NewHouse {
                 && count > 80) {
             total = total - (total * 0.15);
         }
-        if(flower.equalsIgnoreCase("Narcissus")
-                && count < 120) {
+        if(flower.equalsIgnoreCase("Narcissus") && count < 120) {
             total = total + (total * 0.15);
         }
         if(flower.equalsIgnoreCase("Gladiolus") && count < 80) {
