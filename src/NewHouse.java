@@ -37,8 +37,7 @@ public class NewHouse {
             total = total + (total * 0.2);
         }
         if (budget >= total) {
-            System.out.printf("Hey, you have a great " + "garden with %d %s " + "and %.2f leva left.",
-                    count, flower, Math.abs(budget - total));
+            System.out.printf("Hey, you have a great " + "garden with %d %s " + "and %.2f leva left.", count, flower, Math.abs(budget - total));
         } else {
             System.out.printf("Not enough money, you need " +
                     "%.2f leva more.", Math.abs(total - budget));
