@@ -36,7 +36,6 @@ public class NewHouse {
                 && count < 80) {
             total = total + (total * 0.2);
         }
-
         if (budget >= total) {
             System.out.printf("Hey, you have a great " +
                             "garden with %d %s " +
