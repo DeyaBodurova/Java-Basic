@@ -7,6 +7,7 @@ public class FruitShop {
         String day = sc.nextLine();
         double quantity = Double.parseDouble(sc.nextLine());
         double sum = 0;
+        boolean isValid = true;
         switch (day) {
             case "Monday":
             case "Tuesday":
@@ -30,13 +31,14 @@ public class FruitShop {
                         sum = quantity * 2.7;
                         break;
                     case "pineapple":
-                        sum = quantity *5.5;
+                        sum = quantity * 5.5;
                         break;
                     case "grapes":
-                        sum = quantity *3.85;
+                        sum = quantity * 3.85;
                         break;
                     default:
                         System.out.println("error");
+                        isValid = false;
                         break;
                 }
                 break;
@@ -66,12 +68,17 @@ public class FruitShop {
                         break;
                     default:
                         System.out.println("error");
+                        isValid = false;
                         break;
                 }
                 break;
             default:
                 System.out.println("error");
+                isValid = false;
+                break;
         }
-        System.out.printf("%.2f", sum);
+        if (isValid) {
+            System.out.printf("%.2f", sum);
+        }
     }
 }
