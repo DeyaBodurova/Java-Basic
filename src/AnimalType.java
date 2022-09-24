@@ -8,6 +8,9 @@ public class AnimalType {
             case "dog":
                 System.out.println("mammal");
                 break;
+            case "snake":
+                System.out.println("reptile");
+                break;
         }
     }
 }
