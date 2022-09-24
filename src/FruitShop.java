@@ -72,5 +72,6 @@ public class FruitShop {
             default:
                 System.out.println("error");
         }
+        System.out.printf("%.2f", sum);
     }
 }
