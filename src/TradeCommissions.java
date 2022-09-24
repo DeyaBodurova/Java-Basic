@@ -24,7 +24,7 @@ public class TradeCommissions {
                 break;
             case "Varna":
                 if (sales >= 0 & sales <= 500) {
-                    commission = sales * 0.45;
+                    commission = sales * 0.045;
                 } else if (sales > 500 & sales <= 1000) {
                     commission = sales * 0.075;
                 } else if (sales > 1000 & sales <= 10000) {
