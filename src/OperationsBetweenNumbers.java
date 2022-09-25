@@ -46,6 +46,8 @@ public class OperationsBetweenNumbers {
                         a, b, result);
                 break;
             case "%":
+                System.out.println(a + " % "+ b
+                        + " = "+ (a%b));
                 break;
         }
     }
