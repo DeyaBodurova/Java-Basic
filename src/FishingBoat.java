@@ -28,7 +28,7 @@ public class FishingBoat {
             boatPrice = boatPrice - (boatPrice * 0.25);
         }
 
-        if (fisherman % 2 == 0 & (!season.equals("Autumn"))) {
+        if (fisherman % 2 == 0 && (!season.equals("Autumn"))) {
             boatPrice -= boatPrice * 0.5;
         }
 
