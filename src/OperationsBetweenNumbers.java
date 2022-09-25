@@ -46,6 +46,10 @@ public class OperationsBetweenNumbers {
                         a, b, result);
                 break;
             case "%":
+                if (b == 0) {
+                    System.out.printf("Cannot divide %d by zero", a);
+                    break;
+                }
                 System.out.println(a + " % "+ b
                         + " = "+ (a%b));
                 break;
