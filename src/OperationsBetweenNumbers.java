@@ -11,21 +11,39 @@ public class OperationsBetweenNumbers {
         switch (operator) {
             case "+":
                 if ((a + b) % 2 == 0) {
-                    System.out.println("%d + %d = %d - even");
+                    System.out.printf("%d + %d = %d - even",
+                            a,b,a+b);
                 } else {
-                    System.out.println("%d + %d = %d - odd");
+                    System.out.printf("%d + %d = %d - odd",
+                            a,b,a+b);
                 }
                 break;
             case "-":
+                if ((a - b) % 2 == 0) {
+                    System.out.printf("%d - %d = %d - even",
+                            a,b,a-b);
+                } else {
+                    System.out.printf("%d - %d = %d - odd",
+                            a,b,a-b);
+                }
                 break;
             case "*":
+                if ((a * b) % 2 == 0) {
+                    System.out.printf("%d * %d = %d - even",
+                            a,b,a*b);
+                } else {
+                    System.out.printf("%d * %d = %d - odd",
+                            a,b,a*b);
+                }
                 break;
             case "/":
                 if (b == 0) {
                     System.out.printf("Cannot divide %d by zero", a);
                     break;
                 }
-
+                result = (a*1.0) / (b*1.0);
+                System.out.printf("%d / %d = %.2f",
+                        a, b, result);
                 break;
             case "%":
                 break;
