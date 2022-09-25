@@ -25,7 +25,7 @@ public class OnTimeForTheExam {
                         difference, min);
             }
         } else if (((totalMinExam - 30) <= totalMinArrival) &&
-                totalMinArrival != totalMinExam) {
+                !(totalMinArrival > totalMinExam)) {
             System.out.println("On time");
             if(totalMinArrival != totalMinExam) {
                 int min = totalMinExam - totalMinArrival;
