@@ -21,15 +21,15 @@ public class FishingBoat {
         }
 
         if (fisherman <= 6) {
-            boatPrice = boatPrice - (boatPrice * 10/100.0);
+            boatPrice = boatPrice - (boatPrice * 0.1);
         } else if (fisherman > 6 && fisherman <= 11) {
-            boatPrice = boatPrice - (boatPrice * 15/100.0);
+            boatPrice = boatPrice - (boatPrice * 0.15);
         } else if (fisherman >= 12) {
-            boatPrice = boatPrice - (boatPrice * 25/100.0);
+            boatPrice = boatPrice - (boatPrice * 0.25);
         }
 
         if (fisherman % 2 == 0 && (!season.equals("Autumn"))) {
-            boatPrice -= boatPrice * 0.5;
+            boatPrice = boatPrice - (boatPrice * 0.5);
         }
 
         if (budget >= boatPrice) {
