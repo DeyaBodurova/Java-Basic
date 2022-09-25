@@ -5,6 +5,7 @@ public class OperationsBetweenNumbers {
         Scanner sc = new Scanner(System.in);
         int a = Integer.parseInt(sc.nextLine());
         int b = Integer.parseInt(sc.nextLine());
+        String operator = sc.nextLine();
 
     }
 }
