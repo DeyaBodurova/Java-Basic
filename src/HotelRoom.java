@@ -33,11 +33,12 @@ public class HotelRoom {
         } else if(nights > 7 && ((month.equals("May")) ||
                 (month.equals("October")))) {
             priceStudio -= priceStudio * 0.05;
-        } else if(nights > 14) {
+        }
+        if(nights > 14) {
             priceApartment -= priceApartment * 0.1;
         }
 
-        System.out.printf("Apartment: %.2f lv\n", priceApartment);
-        System.out.printf("Studio: %.2f lv\n", priceStudio);
+        System.out.printf("Apartment: %.2f lv.\n", priceApartment);
+        System.out.printf("Studio: %.2f lv.\n", priceStudio);
     }
 }
