@@ -5,12 +5,36 @@ public class Journey {
         Scanner sc = new Scanner(System.in);
         double budget = Double.parseDouble(sc.nextLine());
         String season = sc.nextLine();
-        String type;
+        String type = "";
+        String destination = "";
+        double moneySpend = 0.0;
         switch (season) {
             case "summer":
-
+                type = "Camp";
+                if (budget <= 100) {
+                    destination = "Bulgaria";
+                    moneySpend = budget - (budget * 0.3);
+                } else if(budget <= 1000) {
+                    destination = "Balkans";
+                    moneySpend = budget - (budget * 0.4);
+                } else if(budget > 1000) {
+                    destination = "Europe";
+                    type = "Hotel";
+                    moneySpend = budget - (budget * 0.9);
+                }
                 break;
             case "winter":
+                type = "Hotel";
+                if (budget <= 100) {
+                    destination = "Bulgaria";
+                    moneySpend = budget - (budget * 0.7);
+                } else if(budget <= 1000) {
+                    destination = "Balkans";
+                    moneySpend = budget - (budget * 0.8);
+                } else if(budget > 1000) {
+                    destination = "Europe";
+                    moneySpend = budget - (budget * 0.9);
+                }
                 break;
         }
 
