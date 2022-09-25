@@ -29,7 +29,7 @@ public class FishingBoat {
         }
 
         if (fisherman % 2 == 0 && (!season.equals("Autumn"))) {
-            boatPrice = boatPrice - (boatPrice * 0.5);
+            boatPrice -= boatPrice * 0.05;
         }
 
         if (budget >= boatPrice) {
