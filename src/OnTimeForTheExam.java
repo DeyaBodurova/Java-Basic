@@ -15,7 +15,7 @@ public class OnTimeForTheExam {
         if (totalMinArrival < (totalMinExam - 30)) {
             System.out.println("Early");
             difference = totalMinExam - totalMinArrival;
-            if (difference <= 60) {
+            if (difference < 60) {
                 System.out.printf("%d minutes before the start", difference);
             } else {
                 int min = 0;
@@ -27,21 +27,21 @@ public class OnTimeForTheExam {
         } else if (((totalMinExam - 30) <= totalMinArrival) &&
                 !(totalMinArrival > totalMinExam)) {
             System.out.println("On time");
-            if(totalMinArrival != totalMinExam) {
+            if (totalMinArrival != totalMinExam) {
                 int min = totalMinExam - totalMinArrival;
                 System.out.printf("%d minutes before the start", min);
             }
-        } else if(totalMinArrival > totalMinExam) {
+        } else if (totalMinArrival > totalMinExam) {
             System.out.println("Late");
             difference = totalMinArrival - totalMinExam;
-            if(difference <=60) {
-                System.out.printf("%d minutes after the start",difference);
+            if (difference < 60) {
+                System.out.printf("%d minutes after the start", difference);
             } else {
                 int min = 0;
-                min = difference %60;
-                difference = difference /60;
+                min = difference % 60;
+                difference = difference / 60;
                 System.out.printf("%d:%d hours after the start",
-                        difference,min);
+                        difference, min);
             }
         }
     }
