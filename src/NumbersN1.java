@@ -1,0 +1,2 @@
+public class NumbersN1 {
+}
