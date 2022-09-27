@@ -8,14 +8,14 @@ public class NumberSequence {
         int max = Integer.MIN_VALUE;
         for (int i = 0; i < count; i++) {
             int n = Integer.parseInt(sc.nextLine());
-            if(min <= n) {
+            if(min >= n) {
                 min = n;
             }
-            if(max >= n){
+            if(max <= n){
                 max = n;
             }
         }
         System.out.println("Max number: "+ max);
-        System.out.println("Min nimber: "+ min);
+        System.out.println("Min number: "+ min);
     }
 }
