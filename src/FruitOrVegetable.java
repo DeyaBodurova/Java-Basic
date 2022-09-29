@@ -5,22 +5,9 @@ public class FruitOrVegetable {
         Scanner sc = new Scanner(System.in);
         String product = sc.nextLine();
         switch (product) {
-            case "banana":
-            case "apple":
-            case "kiwi":
-            case "cherry":
-            case "lemon":
-            case "grapes":
-                System.out.println("fruit");
-                break;
-            case "tomato":
-            case "cucumber":
-            case "pepper":
-            case "carrot":
-                System.out.println("vegetable");
-                break;
-            default:
-                System.out.println("unknown");
+            case "banana", "apple", "kiwi", "cherry", "lemon", "grapes" -> System.out.println("fruit");
+            case "tomato", "cucumber", "pepper", "carrot" -> System.out.println("vegetable");
+            default -> System.out.println("unknown");
         }
     }
 }
