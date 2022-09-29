@@ -8,9 +8,9 @@ public class HalfSumElement {
         for (int i = 1; i <= count; i++) {
             int n = Integer.parseInt(sc.nextLine());
             int sum = 0;
-            for (int j = 0; j < count -i; j++) {
-                int a =Integer.parseInt(sc.nextLine());
-                sum+=a;
+            for (int j = 0; j < count - i; j++) {
+                int a = Integer.parseInt(sc.nextLine());
+                sum += a;
             }
 
             //doesn't seem right
