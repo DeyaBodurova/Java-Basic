@@ -15,7 +15,7 @@ public class FishingBoat {
 
         if (fisherman <= 6) {
             boatPrice -= boatPrice * 0.1;
-        } else if (fisherman > 6 && fisherman <= 11) {
+        } else if (fisherman <= 11) {
             boatPrice -= boatPrice * 0.15;
         } else if (fisherman >= 12) {
             boatPrice -= boatPrice * 0.25;
