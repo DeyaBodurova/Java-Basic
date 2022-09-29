@@ -13,7 +13,7 @@ public class HalfSumElement {
                 sum+=a;
             }
 
-            /*doesn't seem right
+            //doesn't seem right
         }
     }
 }
