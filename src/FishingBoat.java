@@ -6,19 +6,12 @@ public class FishingBoat {
         int budget = Integer.parseInt(sc.nextLine());
         String season = sc.nextLine();
         int fisherman = Integer.parseInt(sc.nextLine());
-        double boatPrice = 0;
-        switch (season) {
-            case "Spring":
-                boatPrice = 3000;
-                break;
-            case "Summer":
-            case "Autumn":
-                boatPrice = 4200;
-                break;
-            case "Winter":
-                boatPrice = 2600;
-                break;
-        }
+        double boatPrice = switch (season) {
+            case "Spring" -> 3000;
+            case "Summer", "Autumn" -> 4200;
+            case "Winter" -> 2600;
+            default -> 0;
+        };
 
         if (fisherman <= 6) {
             boatPrice -= boatPrice * 0.1;
