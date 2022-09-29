@@ -5,9 +5,10 @@ public class HalfSumElement {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int count = Integer.parseInt(sc.nextLine());
-        for (int i = 0; i < count; i++) {
+        for (int i = 1; i <= count; i++) {
             int n = Integer.parseInt(sc.nextLine());
-            for (int j = 0; j < ; j++) {
+            int sum = 0;
+            for (int j = 0; j < count -i; j++) {
 
             }
         }
