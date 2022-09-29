@@ -5,16 +5,9 @@ public class AnimalType {
         Scanner sc = new Scanner(System.in);
         String animal = sc.nextLine();
         switch (animal) {
-            case "dog":
-                System.out.println("mammal");
-                break;
-            case "crocodile":
-            case "tortoise":
-            case "snake":
-                System.out.println("reptile");
-                break;
-            default:
-                System.out.println("unknown");
+            case "dog" -> System.out.println("mammal");
+            case "crocodile", "tortoise", "snake" -> System.out.println("reptile");
+            default -> System.out.println("unknown");
         }
     }
 }
