@@ -12,7 +12,6 @@ public class FishingBoat {
             case "Winter" -> 2600;
             default -> 0;
         };
-
         if (fisherman <= 6) {
             boatPrice -= boatPrice * 0.1;
         } else if (fisherman <= 11) {
@@ -20,11 +19,9 @@ public class FishingBoat {
         } else {
             boatPrice -= boatPrice * 0.25;
         }
-
         if (fisherman % 2 == 0 && (!season.equals("Autumn"))) {
             boatPrice -= boatPrice * 0.05;
         }
-
         if (budget >= boatPrice) {
             System.out.printf("Yes! You have %.2f leva left.", Math.abs(budget - boatPrice));
         } else {
