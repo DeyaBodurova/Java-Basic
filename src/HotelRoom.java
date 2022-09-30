@@ -8,21 +8,18 @@ public class HotelRoom {
         double priceStudio = 0.0;
         double priceApartment = 0.0;
         switch (month) {
-            case "May":
-            case "October":
+            case "May", "October" -> {
                 priceStudio = 50 * nights;
                 priceApartment = 65 * nights;
-                break;
-            case "June":
-            case "September":
+            }
+            case "June", "September" -> {
                 priceStudio = 75.2 * nights;
                 priceApartment = 68.7 * nights;
-                break;
-            case "July":
-            case "August":
+            }
+            case "July", "August" -> {
                 priceStudio = 76 * nights;
                 priceApartment = 77 * nights;
-                break;
+            }
         }
         if (nights > 14 && ((month.equals("May")) ||
                 (month.equals("October")))) {
