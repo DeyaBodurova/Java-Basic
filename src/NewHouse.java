@@ -16,19 +16,19 @@ public class NewHouse {
             default -> 0;
         };
         total = price * count;
-        if(flower.equalsIgnoreCase("Roses") && (count > 80)){
+        if (flower.equalsIgnoreCase("Roses") && (count > 80)) {
             total = total - (total * 0.1);
         }
-        if(flower.equalsIgnoreCase("Dahlias") && count > 90) {
-        total = total - (total * 0.15);
-        }
-        if(flower.equalsIgnoreCase("Tulips") && count > 80) {
+        if (flower.equalsIgnoreCase("Dahlias") && count > 90) {
             total = total - (total * 0.15);
         }
-        if(flower.equalsIgnoreCase("Narcissus") && count < 120) {
+        if (flower.equalsIgnoreCase("Tulips") && count > 80) {
+            total = total - (total * 0.15);
+        }
+        if (flower.equalsIgnoreCase("Narcissus") && count < 120) {
             total = total + (total * 0.15);
         }
-        if(flower.equalsIgnoreCase("Gladiolus") && count < 80) {
+        if (flower.equalsIgnoreCase("Gladiolus") && count < 80) {
             total = total + (total * 0.2);
         }
         if (budget >= total) {
