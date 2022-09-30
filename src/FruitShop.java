@@ -24,31 +24,17 @@ public class FruitShop {
             }
         } else if ("Saturday".equals(day) || "Sunday".equals(day)) {
             switch (fruit) {
-                case "banana":
-                    sum = quantity * 2.7;
-                    break;
-                case "apple":
-                    sum = quantity * 1.25;
-                    break;
-                case "orange":
-                    sum = quantity * 0.9;
-                    break;
-                case "grapefruit":
-                    sum = quantity * 1.6;
-                    break;
-                case "kiwi":
-                    sum = quantity * 3.0;
-                    break;
-                case "pineapple":
-                    sum = quantity * 5.6;
-                    break;
-                case "grapes":
-                    sum = quantity * 4.2;
-                    break;
-                default:
+                case "banana" -> sum = quantity * 2.7;
+                case "apple" -> sum = quantity * 1.25;
+                case "orange" -> sum = quantity * 0.9;
+                case "grapefruit" -> sum = quantity * 1.6;
+                case "kiwi" -> sum = quantity * 3.0;
+                case "pineapple" -> sum = quantity * 5.6;
+                case "grapes" -> sum = quantity * 4.2;
+                default -> {
                     System.out.println("error");
                     isValid = false;
-                    break;
+                }
             }
         } else {
             System.out.println("error");
