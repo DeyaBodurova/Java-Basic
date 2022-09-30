@@ -14,7 +14,6 @@ public class LeftAndRightSum {
                 rightSum += n;
             }
         }
-
         if (leftSum == rightSum) {
             System.out.printf("Yes, sum = %d", leftSum);
         } else {
