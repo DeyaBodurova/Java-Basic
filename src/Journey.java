@@ -9,7 +9,7 @@ public class Journey {
         String destination = "";
         double moneySpend = 0.0;
         switch (season) {
-            case "summer":
+            case "summer" -> {
                 type = "Camp";
                 if (budget <= 100) {
                     destination = "Bulgaria";
@@ -22,8 +22,8 @@ public class Journey {
                     type = "Hotel";
                     moneySpend = budget * 0.9;
                 }
-                break;
-            case "winter":
+            }
+            case "winter" -> {
                 type = "Hotel";
                 if (budget <= 100) {
                     destination = "Bulgaria";
@@ -35,7 +35,7 @@ public class Journey {
                     destination = "Europe";
                     moneySpend = budget * 0.9;
                 }
-                break;
+            }
         }
         System.out.printf("Somewhere in %s\n", destination);
         System.out.printf("%s - %.2f", type, moneySpend);
