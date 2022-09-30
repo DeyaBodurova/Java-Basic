@@ -14,10 +14,10 @@ public class Journey {
                 if (budget <= 100) {
                     destination = "Bulgaria";
                     moneySpend = budget * 0.3;
-                } else if(budget <= 1000) {
+                } else if (budget <= 1000) {
                     destination = "Balkans";
                     moneySpend = budget * 0.4;
-                } else if(budget > 1000) {
+                } else if (budget > 1000) {
                     destination = "Europe";
                     type = "Hotel";
                     moneySpend = budget * 0.9;
@@ -28,10 +28,10 @@ public class Journey {
                 if (budget <= 100) {
                     destination = "Bulgaria";
                     moneySpend = budget * 0.7;
-                } else if(budget <= 1000) {
+                } else if (budget <= 1000) {
                     destination = "Balkans";
                     moneySpend = budget * 0.8;
-                } else if(budget > 1000) {
+                } else if (budget > 1000) {
                     destination = "Europe";
                     moneySpend = budget * 0.9;
                 }
