@@ -15,31 +15,17 @@ public class FruitShop {
             case "Thursday":
             case "Friday":
                 switch (fruit) {
-                    case "banana":
-                        sum = quantity * 2.5;
-                        break;
-                    case "apple":
-                        sum = quantity * 1.2;
-                        break;
-                    case "orange":
-                        sum = quantity * 0.85;
-                        break;
-                    case "grapefruit":
-                        sum = quantity * 1.45;
-                        break;
-                    case "kiwi":
-                        sum = quantity * 2.7;
-                        break;
-                    case "pineapple":
-                        sum = quantity * 5.5;
-                        break;
-                    case "grapes":
-                        sum = quantity * 3.85;
-                        break;
-                    default:
+                    case "banana" -> sum = quantity * 2.5;
+                    case "apple" -> sum = quantity * 1.2;
+                    case "orange" -> sum = quantity * 0.85;
+                    case "grapefruit" -> sum = quantity * 1.45;
+                    case "kiwi" -> sum = quantity * 2.7;
+                    case "pineapple" -> sum = quantity * 5.5;
+                    case "grapes" -> sum = quantity * 3.85;
+                    default -> {
                         System.out.println("error");
                         isValid = false;
-                        break;
+                    }
                 }
                 break;
             case "Saturday":
