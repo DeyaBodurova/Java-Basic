@@ -80,5 +80,6 @@ public class FruitShop {
         if (isValid) {
             System.out.printf("%.2f", sum);
         }
+
     }
 }
