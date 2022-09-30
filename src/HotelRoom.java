@@ -24,17 +24,17 @@ public class HotelRoom {
                 priceApartment = 77 * nights;
                 break;
         }
-        if(nights > 14 && ((month.equals("May")) ||
-                (month.equals("October")))){
+        if (nights > 14 && ((month.equals("May")) ||
+                (month.equals("October")))) {
             priceStudio -= priceStudio * 0.3;
-        } else if(nights > 14 && ((month.equals("June")) ||
+        } else if (nights > 14 && ((month.equals("June")) ||
                 (month.equals("September")))) {
             priceStudio -= priceStudio * 0.2;
-        } else if(nights > 7 && ((month.equals("May")) ||
+        } else if (nights > 7 && ((month.equals("May")) ||
                 (month.equals("October")))) {
             priceStudio -= priceStudio * 0.05;
         }
-        if(nights > 14) {
+        if (nights > 14) {
             priceApartment -= priceApartment * 0.1;
         }
 
