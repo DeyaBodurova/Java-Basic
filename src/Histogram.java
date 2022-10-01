@@ -19,7 +19,7 @@ public class Histogram {
                 under599++;
             } else if (a <= 799) {
                 under799++;
-            } else if (a >= 800) {
+            } else {
                 above800++;
             }
         }
