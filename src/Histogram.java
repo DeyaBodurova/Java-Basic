@@ -13,11 +13,11 @@ public class Histogram {
             int a = Integer.parseInt(sc.nextLine());
             if (a < 200) {
                 under200++;
-            } else if (a < 399) {
+            } else if (a <= 399) {
                 under399++;
-            } else if (a < 599) {
+            } else if (a <= 599) {
                 under599++;
-            } else if (a < 799) {
+            } else if (a <= 799) {
                 under799++;
             } else if (a >= 800) {
                 above800++;
