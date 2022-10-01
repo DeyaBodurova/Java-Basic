@@ -23,16 +23,16 @@ public class Histogram {
                 above800++;
             }
         }
-        double b= (under200 / n)*100;
-        System.out.println(String.format("%.2f",b)+"%");
-        double c= (under399 / n)*100;
-        System.out.println(String.format("%.2f",c)+"%");
-        double d= (under599 / n)*100;
-        System.out.println(String.format("%.2f",d)+"%");
-        double f= (under799 / n)*100;
-        System.out.println(String.format("%.2f",f)+"%");
-        double g= (above800 / n)*100;
-        System.out.println(String.format("%.2f",g)+"%");
+        double b = (under200 / n) * 100;
+        System.out.println(String.format("%.2f", b) + "%");
+        double c = (under399 / n) * 100;
+        System.out.println(String.format("%.2f", c) + "%");
+        double d = (under599 / n) * 100;
+        System.out.println(String.format("%.2f", d) + "%");
+        double f = (under799 / n) * 100;
+        System.out.println(String.format("%.2f", f) + "%");
+        double g = (above800 / n) * 100;
+        System.out.println(String.format("%.2f", g) + "%");
 
     }
 }
