@@ -28,23 +28,14 @@ public class SmallShop {
                 };
                 break;
             case "Varna":
-                switch (product) {
-                    case "coffee":
-                        sum = quantity * 0.45;
-                        break;
-                    case "water":
-                        sum = quantity * 0.7;
-                        break;
-                    case "beer":
-                        sum = quantity * 1.1;
-                        break;
-                    case "sweets":
-                        sum = quantity * 1.35;
-                        break;
-                    case "peanuts":
-                        sum = quantity * 1.55;
-                        break;
-                }
+                sum = switch (product) {
+                    case "coffee" -> quantity * 0.45;
+                    case "water" -> quantity * 0.7;
+                    case "beer" -> quantity * 1.1;
+                    case "sweets" -> quantity * 1.35;
+                    case "peanuts" -> quantity * 1.55;
+                    default -> sum;
+                };
                 break;
         }
         System.out.printf("%.2f", sum);
