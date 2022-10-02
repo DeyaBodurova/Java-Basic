@@ -7,15 +7,15 @@ public class VowelsSum {
         String text = sc.nextLine();
         int count = 0;
         for (int i = 0; i < text.length(); i++) {
-            if(text.toLowerCase().charAt(i) == 'a'){
+            if (text.toLowerCase().charAt(i) == 'a') {
                 count += 1;
             } else if (text.toLowerCase().charAt(i) == 'e') {
                 count += 2;
-            } else if(text.toLowerCase().charAt(i) == 'i'){
+            } else if (text.toLowerCase().charAt(i) == 'i') {
                 count += 3;
-            } else if(text.toLowerCase().charAt(i) == 'o'){
+            } else if (text.toLowerCase().charAt(i) == 'o') {
                 count += 4;
-            } else if(text.toLowerCase().charAt(i) == 'u'){
+            } else if (text.toLowerCase().charAt(i) == 'u') {
                 count += 5;
             }
         }
