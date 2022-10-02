@@ -7,12 +7,8 @@ public class PersonalTitles {
         String gender = sc.nextLine();
         if (age < 16) {
             switch (gender) {
-                case "m":
-                    System.out.println("Master");
-                    break;
-                case "f":
-                    System.out.println("Miss");
-                    break;
+                case "m" -> System.out.println("Master");
+                case "f" -> System.out.println("Miss");
             }
         } else {
             switch (gender) {
