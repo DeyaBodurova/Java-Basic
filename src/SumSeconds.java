@@ -6,7 +6,6 @@ public class SumSeconds {
         int firstTime = Integer.parseInt(sc.nextLine());
         int secondTime = Integer.parseInt(sc.nextLine());
         int thirdTime = Integer.parseInt(sc.nextLine());
-
         int sum = firstTime + secondTime + thirdTime;
         int min;
         int sec;
