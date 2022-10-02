@@ -5,8 +5,8 @@ public class WorkingHours {
         Scanner sc = new Scanner(System.in);
         int hour = Integer.parseInt(sc.nextLine());
         String day = sc.nextLine();
-        if (hour >= 10 & hour <=18) {
-            switch (day){
+        if (hour >= 10 & hour <= 18) {
+            switch (day) {
                 case "Monday":
                 case "Tuesday":
                 case "Wednesday":
