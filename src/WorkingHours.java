@@ -7,19 +7,9 @@ public class WorkingHours {
         String day = sc.nextLine();
         if (hour >= 10 & hour <= 18) {
             switch (day) {
-                case "Monday":
-                case "Tuesday":
-                case "Wednesday":
-                case "Thursday":
-                case "Friday":
-                case "Saturday":
-                    System.out.println("open");
-                    break;
-                case "Sunday":
-                    System.out.println("closed");
-                    break;
-                default:
-                    System.out.println("Invalid day!");
+                case "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday" -> System.out.println("open");
+                case "Sunday" -> System.out.println("closed");
+                default -> System.out.println("Invalid day!");
             }
         } else {
             System.out.println("closed");
