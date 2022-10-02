@@ -10,21 +10,11 @@ public class SmallShop {
         switch (city) {
             case "Sofia":
                 switch (product) {
-                    case "coffee":
-                        sum = quantity * 0.5;
-                        break;
-                    case "water":
-                        sum = quantity * 0.8;
-                        break;
-                    case "beer":
-                        sum = quantity * 1.2;
-                        break;
-                    case "sweets":
-                        sum = quantity * 1.45;
-                        break;
-                    case "peanuts":
-                        sum = quantity * 1.6;
-                        break;
+                    case "coffee" -> sum = quantity * 0.5;
+                    case "water" -> sum = quantity * 0.8;
+                    case "beer" -> sum = quantity * 1.2;
+                    case "sweets" -> sum = quantity * 1.45;
+                    case "peanuts" -> sum = quantity * 1.6;
                 }
                 break;
             case "Plovdiv":
