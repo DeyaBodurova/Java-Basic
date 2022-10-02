@@ -4,7 +4,7 @@ public class WeekendOrWorkingDay {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         String day = sc.nextLine();
-        switch (day){
+        switch (day) {
             case "Monday":
             case "Tuesday":
             case "Wednesday":
