@@ -9,7 +9,7 @@ public class SmallShop {
         double sum = 0;
         switch (city) {
             case "Sofia":
-                switch (product){
+                switch (product) {
                     case "coffee":
                         sum = quantity * 0.5;
                         break;
@@ -28,7 +28,7 @@ public class SmallShop {
                 }
                 break;
             case "Plovdiv":
-                switch (product){
+                switch (product) {
                     case "coffee":
                         sum = quantity * 0.4;
                         break;
@@ -47,7 +47,7 @@ public class SmallShop {
                 }
                 break;
             case "Varna":
-                switch (product){
+                switch (product) {
                     case "coffee":
                         sum = quantity * 0.45;
                         break;
@@ -66,6 +66,6 @@ public class SmallShop {
                 }
                 break;
         }
-        System.out.printf("%.2f",sum);
+        System.out.printf("%.2f", sum);
     }
 }
