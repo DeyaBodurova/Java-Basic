@@ -5,7 +5,6 @@ public class TimePlus15Minutes {
         Scanner sc = new Scanner(System.in);
         int hour = Integer.parseInt(sc.nextLine());
         int minutes = Integer.parseInt(sc.nextLine());
-
         int sum = (hour * 60) + minutes + 15;
         int newHour = sum / 60;
         if (newHour > 23) {
