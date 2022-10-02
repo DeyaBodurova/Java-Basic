@@ -12,12 +12,8 @@ public class PersonalTitles {
             }
         } else {
             switch (gender) {
-                case "m":
-                    System.out.println("Mr.");
-                    break;
-                case "f":
-                    System.out.println("Ms.");
-                    break;
+                case "m" -> System.out.println("Mr.");
+                case "f" -> System.out.println("Ms.");
             }
         }
     }
