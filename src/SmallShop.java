@@ -18,23 +18,14 @@ public class SmallShop {
                 }
                 break;
             case "Plovdiv":
-                switch (product) {
-                    case "coffee":
-                        sum = quantity * 0.4;
-                        break;
-                    case "water":
-                        sum = quantity * 0.7;
-                        break;
-                    case "beer":
-                        sum = quantity * 1.15;
-                        break;
-                    case "sweets":
-                        sum = quantity * 1.30;
-                        break;
-                    case "peanuts":
-                        sum = quantity * 1.5;
-                        break;
-                }
+                sum = switch (product) {
+                    case "coffee" -> quantity * 0.4;
+                    case "water" -> quantity * 0.7;
+                    case "beer" -> quantity * 1.15;
+                    case "sweets" -> quantity * 1.30;
+                    case "peanuts" -> quantity * 1.5;
+                    default -> sum;
+                };
                 break;
             case "Varna":
                 switch (product) {
