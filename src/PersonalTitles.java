@@ -5,8 +5,8 @@ public class PersonalTitles {
         Scanner sc = new Scanner(System.in);
         double age = Double.parseDouble(sc.nextLine());
         String gender = sc.nextLine();
-        if(age < 16){
-            switch (gender){
+        if (age < 16) {
+            switch (gender) {
                 case "m":
                     System.out.println("Master");
                     break;
@@ -15,7 +15,7 @@ public class PersonalTitles {
                     break;
             }
         } else {
-            switch (gender){
+            switch (gender) {
                 case "m":
                     System.out.println("Mr.");
                     break;
