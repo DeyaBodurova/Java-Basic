@@ -7,7 +7,6 @@ public class SkiTrip {
         String typeRoom = sc.nextLine();
         String grade = sc.nextLine();
         double price = 0.0;
-        double discount = 0;
         switch (typeRoom) {
             case "room for one person" -> price = (days - 1) * 18.0;
             case "apartment" -> {
