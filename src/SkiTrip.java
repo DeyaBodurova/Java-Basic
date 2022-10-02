@@ -9,10 +9,8 @@ public class SkiTrip {
         double price = 0.0;
         double discount = 0;
         switch (typeRoom) {
-            case "room for one person":
-                price = (days - 1) * 18.0;
-                break;
-            case "apartment":
+            case "room for one person" -> price = (days - 1) * 18.0;
+            case "apartment" -> {
                 price = (days - 1) * 25.0;
                 if (days < 10) {
                     price -= price * 0.3;
@@ -21,8 +19,8 @@ public class SkiTrip {
                 } else {
                     price -= price * 0.5;
                 }
-                break;
-            case "president apartment":
+            }
+            case "president apartment" -> {
                 price = (days - 1) * 35.0;
                 if (days < 10) {
                     price -= price * 0.1;
@@ -31,7 +29,7 @@ public class SkiTrip {
                 } else {
                     price -= price * 0.2;
                 }
-                break;
+            }
         }
         if (grade.equals("positive")) {
             price += price * 0.25;
