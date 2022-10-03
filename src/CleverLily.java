@@ -10,17 +10,17 @@ public class CleverLily {
         int birthdayMoney = 0;
         for (int i = 1; i <= age; i++) {
             if (i % 2 == 0) {
-                birthdayMoney += (i * 5)-1;
+                birthdayMoney += (i * 5) - 1;
             } else {
                 toysCounter++;
             }
         }
         double moneyForToys = toysCounter * toyPrice;
         double saveMoney = moneyForToys + birthdayMoney;
-        if(washingMachinePrice <= saveMoney){
-            System.out.printf("Yes! %.2f",Math.abs(saveMoney - washingMachinePrice));
+        if (washingMachinePrice <= saveMoney) {
+            System.out.printf("Yes! %.2f", Math.abs(saveMoney - washingMachinePrice));
         } else {
-            System.out.printf("No! %.2f", Math.abs(washingMachinePrice-saveMoney));
+            System.out.printf("No! %.2f", Math.abs(washingMachinePrice - saveMoney));
         }
     }
 }
