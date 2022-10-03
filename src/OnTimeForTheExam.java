@@ -7,7 +7,6 @@ public class OnTimeForTheExam {
         int minutesExam = Integer.parseInt(sc.nextLine());
         int hourArrival = Integer.parseInt(sc.nextLine());
         int minutesArrival = Integer.parseInt(sc.nextLine());
-
         int totalMinExam = hourExam * 60 + minutesExam;
         int totalMinArrival = hourArrival * 60 + minutesArrival;
 
