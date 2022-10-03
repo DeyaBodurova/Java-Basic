@@ -18,8 +18,7 @@ public class HalfSumElement {
         if (sum == maxNum) {
             System.out.println("Yes\nSum = " + sum);
         } else {
-            System.out.println("No\nDiff = " +
-                    Math.abs(maxNum - sum));
+            System.out.println("No\nDiff = " + Math.abs(maxNum - sum));
         }
     }
 }
