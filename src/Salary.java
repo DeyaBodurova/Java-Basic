@@ -8,7 +8,10 @@ public class Salary {
 
         while (salary > 0) {
             String website = sc.nextLine();
-
+                switch (website){
+                    case "Facebook":
+                        break;
+                }
             if(){
 
             }
