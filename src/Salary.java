@@ -21,5 +21,8 @@ public class Salary {
                 return;
             }
         }
+        if(salary>0){
+            System.out.println(salary);
+        }
     }
 }
