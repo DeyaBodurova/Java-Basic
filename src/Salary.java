@@ -6,7 +6,7 @@ public class Salary {
         int openTabs = Integer.parseInt(sc.nextLine());
         double salary = Double.parseDouble(sc.nextLine());
 
-        while (salary > 0) {
+        for (int i = 0; i < openTabs; i++) {
             String website = sc.nextLine();
                 switch (website){
                     case "Facebook":
@@ -16,8 +16,9 @@ public class Salary {
                     case "Reddit":
                         break;
                 }
-            if(){
+            if(salary <= 0){
 
+                return;
             }
         }
     }
