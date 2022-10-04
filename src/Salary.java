@@ -16,6 +16,7 @@ public class Salary {
                         salary-=100;
                         break;
                     case "Reddit":
+                        salary-=50;
                         break;
                 }
             if(salary <= 0){
