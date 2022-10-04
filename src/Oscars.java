@@ -16,7 +16,7 @@ public class Oscars {
             if(actorsPoints >= 1250.5){
                 System.out.printf("Congratulations, %s got" +
                         " a nominee for leading role " +
-                        "with %.2f!",name,actorsPoints);
+                        "with %.2f!",name,Math.ceil(actorsPoints));
                 break;
             }
 
