@@ -11,6 +11,8 @@ public class Salary {
                 switch (website){
                     case "Facebook":
                         break;
+                    case "Instagram":
+                        break;
                 }
             if(){
 
