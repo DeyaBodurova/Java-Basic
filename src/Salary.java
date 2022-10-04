@@ -17,7 +17,7 @@ public class Salary {
                         break;
                 }
             if(salary <= 0){
-
+                System.out.println("You have lost your salary.");
                 return;
             }
         }
