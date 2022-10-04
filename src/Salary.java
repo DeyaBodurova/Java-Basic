@@ -8,23 +8,23 @@ public class Salary {
 
         for (int i = 0; i < openTabs; i++) {
             String website = sc.nextLine();
-                switch (website){
-                    case "Facebook":
-                        salary-=150;
-                        break;
-                    case "Instagram":
-                        salary-=100;
-                        break;
-                    case "Reddit":
-                        salary-=50;
-                        break;
-                }
-            if(salary <= 0){
+            switch (website) {
+                case "Facebook":
+                    salary -= 150;
+                    break;
+                case "Instagram":
+                    salary -= 100;
+                    break;
+                case "Reddit":
+                    salary -= 50;
+                    break;
+            }
+            if (salary <= 0) {
                 System.out.println("You have lost your salary.");
                 return;
             }
         }
-        if(salary>0){
+        if (salary > 0) {
             System.out.println(salary);
         }
     }
