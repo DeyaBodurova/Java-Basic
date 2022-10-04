@@ -6,6 +6,12 @@ public class Salary {
         int openTabs = Integer.parseInt(sc.nextLine());
         double salary = Double.parseDouble(sc.nextLine());
 
+        while (salary > 0) {
+            String website = sc.nextLine();
 
+            if(){
+
+            }
+        }
     }
 }
