@@ -12,6 +12,13 @@ public class Oscars {
             double points = Double.parseDouble(sc.nextLine());
             double sumPoints = (nameFromCommission.length()
                     * points) /2;
+            actorsPoints+=sumPoints;
+            if(actorsPoints >= 1250.5){
+                System.out.printf("Congratulations, %s got" +
+                        " a nominee for leading role " +
+                        "with %.2f!",name,actorsPoints);
+                break;
+            }
 
         }
     }
