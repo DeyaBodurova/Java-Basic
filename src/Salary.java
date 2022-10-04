@@ -10,6 +10,7 @@ public class Salary {
             String website = sc.nextLine();
                 switch (website){
                     case "Facebook":
+                        salary-=150;
                         break;
                     case "Instagram":
                         break;
