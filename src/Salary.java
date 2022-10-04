@@ -13,6 +13,7 @@ public class Salary {
                         salary-=150;
                         break;
                     case "Instagram":
+                        salary-=100;
                         break;
                     case "Reddit":
                         break;
