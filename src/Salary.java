@@ -13,6 +13,8 @@ public class Salary {
                         break;
                     case "Instagram":
                         break;
+                    case "Reddit":
+                        break;
                 }
             if(){
 
