@@ -9,15 +9,9 @@ public class Salary {
         for (int i = 0; i < openTabs; i++) {
             String website = sc.nextLine();
             switch (website) {
-                case "Facebook":
-                    salary -= 150;
-                    break;
-                case "Instagram":
-                    salary -= 100;
-                    break;
-                case "Reddit":
-                    salary -= 50;
-                    break;
+                case "Facebook" -> salary -= 150;
+                case "Instagram" -> salary -= 100;
+                case "Reddit" -> salary -= 50;
             }
             if (salary <= 0) {
                 System.out.println("You have lost your salary.");
