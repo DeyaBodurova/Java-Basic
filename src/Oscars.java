@@ -6,24 +6,24 @@ public class Oscars {
         String name = sc.nextLine();
         double actorsPoints = Double.parseDouble(sc.nextLine());
         int count = Integer.parseInt(sc.nextLine());
-            
+
         for (int i = 0; i < count; i++) {
-            String nameFromCommission =sc.nextLine();
+            String nameFromCommission = sc.nextLine();
             double points = Double.parseDouble(sc.nextLine());
             double sumPoints = (nameFromCommission.length()
-                    * points) /2;
-            actorsPoints+=sumPoints;
-            if(actorsPoints >= 1250.5){
+                    * points) / 2;
+            actorsPoints += sumPoints;
+            if (actorsPoints >= 1250.5) {
                 System.out.printf("Congratulations, %s got" +
                         " a nominee for leading role " +
-                        "with %.1f!",name,actorsPoints);
+                        "with %.1f!", name, actorsPoints);
                 break;
             }
 
         }
-        if(actorsPoints < 1250.5){
+        if (actorsPoints < 1250.5) {
             System.out.printf("Sorry, %s you need %.2f more!",
-                    name, Math.abs(1250.5-actorsPoints));
+                    name, Math.abs(1250.5 - actorsPoints));
         }
     }
 }
