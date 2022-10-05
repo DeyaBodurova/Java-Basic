@@ -9,7 +9,7 @@ public class OnTimeForTheExam {
         int minutesArrival = Integer.parseInt(sc.nextLine());
         int totalMinExam = hourExam * 60 + minutesExam;
         int totalMinArrival = hourArrival * 60 + minutesArrival;
-        int difference = 0;
+        int difference;
         if (totalMinArrival < (totalMinExam - 30)) {
             System.out.println("Early");
             difference = totalMinExam - totalMinArrival;
