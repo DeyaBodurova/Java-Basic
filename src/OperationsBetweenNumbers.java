@@ -41,8 +41,7 @@ public class OperationsBetweenNumbers {
                     break;
                 }
                 result = (a * 1.0) / (b * 1.0);
-                System.out.printf("%d / %d = %.2f",
-                        a, b, result);
+                System.out.printf("%d / %d = %.2f", a, b, result);
                 break;
             case "%":
                 if (b == 0) {
