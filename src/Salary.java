@@ -5,7 +5,6 @@ public class Salary {
         Scanner sc = new Scanner(System.in);
         int openTabs = Integer.parseInt(sc.nextLine());
         int salary = Integer.parseInt(sc.nextLine());
-
         for (int i = 0; i < openTabs; i++) {
             String website = sc.nextLine();
             switch (website) {
