@@ -10,8 +10,7 @@ public class OperationsBetweenNumbers {
         switch (operator) {
             case "+":
                 if ((a + b) % 2 == 0) {
-                    System.out.printf("%d + %d = %d - even",
-                            a, b, a + b);
+                    System.out.printf("%d + %d = %d - even", a, b, a + b);
                 } else {
                     System.out.printf("%d + %d = %d - odd", a, b, a + b);
                 }
