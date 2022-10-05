@@ -6,7 +6,7 @@ public class Oscars {
         String name = sc.nextLine();
         double actorsPoints = Double.parseDouble(sc.nextLine());
         int count = Integer.parseInt(sc.nextLine());
-
+            
         for (int i = 0; i < count; i++) {
             String nameFromCommission =sc.nextLine();
             double points = Double.parseDouble(sc.nextLine());
