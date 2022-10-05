@@ -7,7 +7,6 @@ public class OperationsBetweenNumbers {
         int b = Integer.parseInt(sc.nextLine());
         String operator = sc.nextLine();
         double result = 0.0;
-        boolean isPossible = true;
         switch (operator) {
             case "+":
                 if ((a + b) % 2 == 0) {
