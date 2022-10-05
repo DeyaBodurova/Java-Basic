@@ -18,7 +18,6 @@ public class Oscars {
                         "with %.1f!", name, actorsPoints);
                 break;
             }
-
         }
         if (actorsPoints < 1250.5) {
             System.out.printf("Sorry, %s you need %.2f more!",
