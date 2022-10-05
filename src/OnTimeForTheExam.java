@@ -41,8 +41,7 @@ public class OnTimeForTheExam {
                 min = difference % 60;
                 difference = difference / 60;
                 if (min > 9) {
-                    System.out.printf("%d:%d hours after the start",
-                            difference, min);
+                    System.out.printf("%d:%d hours after the start", difference, min);
                 } else {
                     System.out.printf("%d:0%d hours after the start",
                             difference, min);
