@@ -17,8 +17,7 @@ public class OddEvenSum {
         if (evenSum == oddSum) {
             System.out.println("Yes\nSum = " + evenSum);
         } else {
-            System.out.println("No\nDiff = " +
-                    Math.abs(evenSum - oddSum));
+            System.out.println("No\nDiff = " + Math.abs(evenSum - oddSum));
         }
     }
 }
