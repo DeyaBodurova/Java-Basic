@@ -9,8 +9,7 @@ public class Oscars {
         for (int i = 0; i < count; i++) {
             String nameFromCommission = sc.nextLine();
             double points = Double.parseDouble(sc.nextLine());
-            double sumPoints = (nameFromCommission.length()
-                    * points) / 2;
+            double sumPoints = (nameFromCommission.length() * points) / 2;
             actorsPoints += sumPoints;
             if (actorsPoints >= 1250.5) {
                 System.out.printf("Congratulations, %s got" +
