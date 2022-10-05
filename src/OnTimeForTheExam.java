@@ -43,8 +43,7 @@ public class OnTimeForTheExam {
                 if (min > 9) {
                     System.out.printf("%d:%d hours after the start", difference, min);
                 } else {
-                    System.out.printf("%d:0%d hours after the start",
-                            difference, min);
+                    System.out.printf("%d:0%d hours after the start", difference, min);
                 }
             }
         }
