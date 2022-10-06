@@ -10,8 +10,7 @@ public class LunchBreak {
         double relaxTime = timeBreak / 4.0;
         double totalTime = timeBreak - (lunchTime + relaxTime);
         if (timeEpisode < totalTime) {
-            System.out.printf("You have enough time to watch %s and left with %.0f minutes free time.", movie,
-                    Math.ceil(totalTime - timeEpisode));
+            System.out.printf("You have enough time to watch %s and left with %.0f minutes free time.", movie, Math.ceil(totalTime - timeEpisode));
         } else if (timeEpisode == totalTime) {
             System.out.printf("You have enough time to watch %s and left with 0 minutes free time.", movie);
         } else {
