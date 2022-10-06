@@ -8,8 +8,7 @@ public class FruitShop {
         double quantity = Double.parseDouble(sc.nextLine());
         double sum = 0;
         boolean isValid = true;
-        if ("Monday".equals(day) || "Tuesday".equals(day) || "Wednesday".equals(day)
-                || "Thursday".equals(day) || "Friday".equals(day)) {
+        if ("Monday".equals(day) || "Tuesday".equals(day) || "Wednesday".equals(day) || "Thursday".equals(day) || "Friday".equals(day)) {
             switch (fruit) {
                 case "banana" -> sum = quantity * 2.5;
                 case "apple" -> sum = quantity * 1.2;
