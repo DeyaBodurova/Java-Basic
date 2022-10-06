@@ -21,8 +21,7 @@ public class CleverLily {
             System.out.printf("Yes! %.2f", Math.abs(
                     saveMoney - washingMachinePrice));
         } else {
-            System.out.printf("No! %.2f",
-                    Math.abs(washingMachinePrice - saveMoney));
+            System.out.printf("No! %.2f", Math.abs(washingMachinePrice - saveMoney));
         }
     }
 }
