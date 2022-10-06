@@ -18,6 +18,7 @@ public class Oscars {
             }
         }
 
+
         if (actorsPoints < 1250.5) {
             System.out.printf("Sorry, %s you need %.2f more!", name, Math.abs(1250.5 - actorsPoints));
         }
