@@ -18,8 +18,7 @@ public class CleverLily {
         double moneyForToys = toysCounter * toyPrice;
         double saveMoney = moneyForToys + birthdayMoney;
         if (washingMachinePrice <= saveMoney) {
-            System.out.printf("Yes! %.2f", Math.abs(
-                    saveMoney - washingMachinePrice));
+            System.out.printf("Yes! %.2f", Math.abs(saveMoney - washingMachinePrice));
         } else {
             System.out.printf("No! %.2f", Math.abs(washingMachinePrice - saveMoney));
         }
