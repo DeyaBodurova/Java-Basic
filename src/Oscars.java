@@ -8,6 +8,7 @@ public class Oscars {
         int count = Integer.parseInt(sc.nextLine());
 
         for (int i = 0; i < count; i++) {
+
             String nameFromCommission = sc.nextLine();
             double points = Double.parseDouble(sc.nextLine());
             double sumPoints = (nameFromCommission.length() * points) / 2;
