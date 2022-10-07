@@ -14,15 +14,15 @@ public class TrekkingMania {
             int peopleInGroup = Integer.parseInt(sc.nextLine());
             totalPeople+=peopleInGroup;
             if(peopleInGroup <= 5){
-                musalaCount++;
+                musalaCount+=peopleInGroup;
             } else if(peopleInGroup <= 12) {
-                monblanCount++;
+                monblanCount+=peopleInGroup;
             } else if(peopleInGroup <=25) {
-                kilimangaroCount++;
+                kilimangaroCount+=peopleInGroup;
             } else if(peopleInGroup <=40){
-                k2Count++;
+                k2Count+=peopleInGroup;
             } else {
-                everestCount++;
+                everestCount+=peopleInGroup;
             }
         }
     }
