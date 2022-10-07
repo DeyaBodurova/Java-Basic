@@ -4,23 +4,23 @@ public class TrekkingMania {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int groups = Integer.parseInt(sc.nextLine());
-        double musalaPercent;
-        double monblanPercent;
-        double kilimangaroPercent;
-        double k2Percent;
-        double everestPercent;
+        int musalaCount =0;
+        int monblanCount;
+        int kilimangaroCount;
+        int k2Count;
+        int everestCount;
         for (int i = 0; i < groups; i++) {
             int peopleInGroup = Integer.parseInt(sc.nextLine());
             if(peopleInGroup <= 5){
-                monblanPercent
+                musalaCount++;
             } else if(peopleInGroup <= 12) {
-                monblanPercent
+                monblanCount++;
             } else if(peopleInGroup <=25) {
-                kilimangaroPercent
+                kilimangaroCount++;
             } else if(peopleInGroup <=40){
-                k2Percent
+                k2Count++;
             } else if(peopleInGroup > 40){
-                everestPercent
+                everestCount++;
             }
         }
     }
