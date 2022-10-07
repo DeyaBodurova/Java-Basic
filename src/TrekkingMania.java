@@ -12,7 +12,15 @@ public class TrekkingMania {
         for (int i = 0; i < groups; i++) {
             int peopleInGroup = Integer.parseInt(sc.nextLine());
             if(peopleInGroup <= 5){
-
+                monblanPercent
+            } else if(peopleInGroup <= 12) {
+                monblanPercent
+            } else if(peopleInGroup <=25) {
+                kilimangaroPercent
+            } else if(peopleInGroup <=40){
+                k2Percent
+            } else if(peopleInGroup > 40){
+                everestPercent
             }
         }
     }
