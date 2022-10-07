@@ -8,7 +8,7 @@ public class testy {
         int jury = Integer.parseInt(sc.nextLine());
 
         for (int i = 0; i < jury; i++) {
-            String judgeName sc.nextLine();
+            String judgeName =sc.nextLine();
             double juryPoints = Double.parseDouble(sc.nextLine());
 
         }
