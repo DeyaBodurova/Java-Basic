@@ -19,10 +19,10 @@ public class testy {
         }
         if(isSucceeded){
             System.out.printf("Congratulations, %s got a nominee" +
-                    " for leading role with %.0f!", actorName,
+                    " for leading role with %.1f!", actorName,
                    academyPoints);
         } else {
-            System.out.printf("Sorry, %s you need %.0f more!",
+            System.out.printf("Sorry, %s you need %.1f more!",
                     actorName, 1250.5 - academyPoints);
         }
     }
