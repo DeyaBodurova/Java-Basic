@@ -9,8 +9,10 @@ public class TrekkingMania {
         int kilimangaroCount=0;
         int k2Count=0;
         int everestCount=0;
+        int totalPeople =0;
         for (int i = 0; i < groups; i++) {
             int peopleInGroup = Integer.parseInt(sc.nextLine());
+            totalPeople+=peopleInGroup;
             if(peopleInGroup <= 5){
                 musalaCount++;
             } else if(peopleInGroup <= 12) {
