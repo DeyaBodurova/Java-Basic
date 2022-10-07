@@ -3,22 +3,27 @@ import java.util.Scanner;
 public class Oscars {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        String name = sc.nextLine();
-        double actorsPoints = Double.parseDouble(sc.nextLine());
-        int count = Integer.parseInt(sc.nextLine());
-        for (int i = 0; i < count; i++) {
-            String nameFromCommission = sc.nextLine();
-            double points = Double.parseDouble(sc.nextLine());
-            double sumPoints = (nameFromCommission.length() * points) / 2;
-            actorsPoints += sumPoints;
+        String actorName= sc.nextLine();
+        double academyPoints = Double.parseDouble(sc.nextLine());
+        int jury = Integer.parseInt(sc.nextLine());
+        boolean isSucceeded = false;
 
-            if (actorsPoints >= 1250.5) {
-                System.out.printf("Congratulations, %s got a nominee for leading role with %.1f!", name, actorsPoints);
+        for (int i = 0; i < jury; i++) {
+            String judgeName =sc.nextLine();
+            double juryPoints = Double.parseDouble(sc.nextLine());
+            academyPoints += (judgeName.length() * juryPoints)/2;
+            if(academyPoints > 1250.5){
+                isSucceeded = true;
                 break;
             }
         }
-        if (actorsPoints < 1250.5) {
-            System.out.printf("Sorry, %s you need %.2f more!", name, Math.abs(1250.5 - actorsPoints));
+        if(isSucceeded){
+            System.out.printf("Congratulations, %s got a nominee" +
+                            " for leading role with %.1f!", actorName,
+                    academyPoints);
+        } else {
+            System.out.printf("Sorry, %s you need %.1f more!",
+                    actorName, 1250.5 - academyPoints);
         }
     }
 }
