@@ -5,10 +5,10 @@ public class TrekkingMania {
         Scanner sc = new Scanner(System.in);
         int groups = Integer.parseInt(sc.nextLine());
         int musalaCount =0;
-        int monblanCount;
-        int kilimangaroCount;
-        int k2Count;
-        int everestCount;
+        int monblanCount=0;
+        int kilimangaroCount=0;
+        int k2Count=0;
+        int everestCount=0;
         for (int i = 0; i < groups; i++) {
             int peopleInGroup = Integer.parseInt(sc.nextLine());
             if(peopleInGroup <= 5){
