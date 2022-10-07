@@ -14,7 +14,7 @@ public class testy {
             academyPoints += (judgeName.length() * juryPoints)/2;
             if(academyPoints > 1250.5){
                 isSucceeded = true;
-                return;
+                break;
             }
         }
         if(isSucceeded){
