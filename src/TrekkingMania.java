@@ -19,7 +19,7 @@ public class TrekkingMania {
                 kilimangaroCount++;
             } else if(peopleInGroup <=40){
                 k2Count++;
-            } else if(peopleInGroup > 40){
+            } else {
                 everestCount++;
             }
         }
