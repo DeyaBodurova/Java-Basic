@@ -7,7 +7,6 @@ public class Oscars {
         double academyPoints = Double.parseDouble(sc.nextLine());
         int jury = Integer.parseInt(sc.nextLine());
         boolean isSucceeded = false;
-
         for (int i = 0; i < jury; i++) {
             String judgeName = sc.nextLine();
             double juryPoints = Double.parseDouble(sc.nextLine());
