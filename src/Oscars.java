@@ -18,8 +18,7 @@ public class Oscars {
             }
         }
         if (isSucceeded) {
-            System.out.printf("Congratulations, %s got a nominee" +
-                            " for leading role with %.1f!", actorName,
+            System.out.printf("Congratulations, %s got a nominee for leading role with %.1f!", actorName,
                     academyPoints);
         } else {
             System.out.printf("Sorry, %s you need %.1f more!",
