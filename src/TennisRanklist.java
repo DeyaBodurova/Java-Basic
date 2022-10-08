@@ -5,4 +5,4 @@ public class TennisRanklist {
         Scanner sc = new Scanner(System.in);
 
 
-}
+}}
