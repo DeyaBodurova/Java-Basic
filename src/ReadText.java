@@ -6,6 +6,7 @@ public class ReadText {
         String text = sc.nextLine();
         while (!text.equals("Stop")){
             System.out.println(text);
+            text=sc.nextLine();
         }
     }
 }
