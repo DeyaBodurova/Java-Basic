@@ -5,9 +5,10 @@ public class SumNumbersWhileLoop {
         Scanner sc = new Scanner(System.in);
         int num = Integer.parseInt(sc.nextLine());
         int sum = 0;
-        while (sum>=num){
-            int a= Integer.parseInt(sc.nextLine());
+        int a= Integer.parseInt(sc.nextLine());
+        while (sum <num){
             sum+=a;
+        a=Integer.parseInt(sc.nextLine());
         }
         System.out.println(sum);
     }
