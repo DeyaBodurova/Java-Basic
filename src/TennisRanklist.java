@@ -25,6 +25,7 @@ public class TennisRanklist {
         int avg = (points- beginingPoints)/tournaments;
         System.out.printf("Final points: %d\n",points);
         System.out.printf("Average points: %d\n",avg);
-        System.out.println((countWins/tournaments)*100);
+        System.out.printf("%.2f%%",
+                (countWins/tournaments)*100);
     }
 }
