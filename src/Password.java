@@ -9,7 +9,7 @@ public class Password {
         while (!passwordAttempt.equals(password)) {
             passwordAttempt=sc.nextLine();
         }
-        System.out.printf("Welcome %s",username);
+        System.out.printf("Welcome %s!",username);
 
     }
 }
