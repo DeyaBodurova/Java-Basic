@@ -8,7 +8,7 @@ public class AccountBalance {
         while (!text.equals("NoMoreMoney")) {
             double deposition = Double.parseDouble(text);
             if (deposition >= 0) {
-                System.out.println("Increase: "+deposition);
+                System.out.printf("Increase: %.2f\n",deposition);
             money+=deposition;
             } else {
                 System.out.println("Invalid operation!");
