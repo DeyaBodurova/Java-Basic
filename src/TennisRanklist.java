@@ -6,11 +6,13 @@ public class TennisRanklist {
         int tournaments = Integer.parseInt(sc.nextLine());
         int beginingPoints = Integer.parseInt(sc.nextLine());
         int points = beginingPoints;
+        double countWins=0;
         for (int i = 0; i < tournaments; i++) {
             String stage = sc.nextLine();
             switch (stage){
                 case "W":
                     points+=2000;
+                    countWins++;
                     break;
                 case "F":
                     points+=1200;
@@ -23,6 +25,6 @@ public class TennisRanklist {
         int avg = (points- beginingPoints)/tournaments;
         System.out.printf("Final points: %d\n",points);
         System.out.printf("Average points: %d\n",avg);
-        System.out.println();
+        System.out.println((countWins/tournaments)*100);
     }
 }
