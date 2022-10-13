@@ -25,13 +25,12 @@ public class TrekkingMania {
                 everestCount += peopleInGroup;
             }
         }
-        double sum1 = (musalaCount / totalPeople) * 100;
         double sum2 = (monblanCount / totalPeople) * 100;
         double sum3 = (kilimangaroCount / totalPeople) * 100;
         double sum4 = (k2Count / totalPeople) * 100;
         double sum5 = (everestCount / totalPeople) * 100;
         System.out.printf("%.2f%%\n", (musalaCount / totalPeople) * 100);
-        System.out.printf("%.2f%%\n", sum2);
+        System.out.printf("%.2f%%\n", (kilimangaroCount / totalPeople) * 100);
         System.out.printf("%.2f%%\n", sum3);
         System.out.printf("%.2f%%\n", sum4);
         System.out.printf("%.2f%%\n", sum5);
