@@ -25,7 +25,6 @@ public class TrekkingMania {
                 everestCount += peopleInGroup;
             }
         }
-        double sum5 = (everestCount / totalPeople) * 100;
         System.out.printf("%.2f%%\n", (musalaCount / totalPeople) * 100);
         System.out.printf("%.2f%%\n", (kilimangaroCount / totalPeople) * 100);
         System.out.printf("%.2f%%\n", (kilimangaroCount / totalPeople) * 100);
