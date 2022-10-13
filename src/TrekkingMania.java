@@ -25,7 +25,6 @@ public class TrekkingMania {
                 everestCount += peopleInGroup;
             }
         }
-        double sum2 = (monblanCount / totalPeople) * 100;
         double sum3 = (kilimangaroCount / totalPeople) * 100;
         double sum4 = (k2Count / totalPeople) * 100;
         double sum5 = (everestCount / totalPeople) * 100;
