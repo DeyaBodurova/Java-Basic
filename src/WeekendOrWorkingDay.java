@@ -9,6 +9,5 @@ public class WeekendOrWorkingDay {
             case "Saturday", "Sunday" -> System.out.println("Weekend");
             default -> System.out.println("Error");
         }
-
     }
 }
