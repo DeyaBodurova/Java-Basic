@@ -12,6 +12,7 @@ public class WorkingHours {
                 default -> System.out.println("Invalid day!");
             }
         } else {
+
             System.out.println("closed");
         }
     }
