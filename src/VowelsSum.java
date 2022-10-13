@@ -20,6 +20,5 @@ public class VowelsSum {
             }
         }
         System.out.println(count);
-
     }
 }
