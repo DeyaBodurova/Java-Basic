@@ -8,4 +8,5 @@ public class CharacterSequence {
             System.out.println(text.charAt(i));
         }
     }
+
 }
