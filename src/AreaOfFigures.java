@@ -27,4 +27,5 @@ public class AreaOfFigures {
         }
         System.out.printf("%.3f", area);
     }
+
 }
