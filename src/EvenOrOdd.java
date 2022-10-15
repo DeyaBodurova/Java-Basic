@@ -10,4 +10,5 @@ public class EvenOrOdd {
             System.out.println("odd");
         }
     }
+
 }
