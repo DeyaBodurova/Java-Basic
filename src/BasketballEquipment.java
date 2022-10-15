@@ -11,4 +11,5 @@ public class BasketballEquipment {
         double sum = tax + sneakers + clothes + ball + accessories;
         System.out.println(sum);
     }
+
 }
