@@ -10,4 +10,5 @@ public class AnimalType {
             default -> System.out.println("unknown");
         }
     }
+
 }
