@@ -15,4 +15,5 @@ public class DayOfWeek {
             default -> System.out.println("Error");
         }
     }
+
 }
