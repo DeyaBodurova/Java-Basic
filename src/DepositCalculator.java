@@ -9,4 +9,5 @@ public class DepositCalculator {
         double sum = deposit + period * ((deposit * (percent * 0.01)) / 12.0);
         System.out.println(sum);
     }
+
 }
