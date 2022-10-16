@@ -6,33 +6,33 @@ public class Vacation {
         double moneyNeeded = Double.parseDouble(sc.nextLine());
         double money = Double.parseDouble(sc.nextLine());
         int countSpendOnARoad = 0;
-        int days=0;
-        boolean isEnoughMoney =false;
-        while (money<=moneyNeeded) {
+        int days = 0;
+        boolean isEnoughMoney = false;
+        while (money <= moneyNeeded) {
             String action = sc.nextLine();
             double saveSpend = Double.parseDouble(sc.nextLine());
             days++;
             if (action.equals("spend")) {
                 countSpendOnARoad++;
-                if(money >= saveSpend) {
+                if (money >= saveSpend) {
                     money -= saveSpend;
                 } else {
                     money = 0;
                 }
-                if(countSpendOnARoad>=5){
+                if (countSpendOnARoad >= 5) {
                     break;
                 }
             } else {
-                money+=saveSpend;
-                if(money>=moneyNeeded){
+                money += saveSpend;
+                if (money >= moneyNeeded) {
                     isEnoughMoney = true;
                 }
-                countSpendOnARoad=0;
+                countSpendOnARoad = 0;
             }
         }
-        if(isEnoughMoney){
+        if (isEnoughMoney) {
             System.out.printf("You saved the money for " +
-                    "%d days.",days);
+                    "%d days.", days);
         } else {
             System.out.println("You can't save the money.");
             System.out.println(days);
