@@ -21,7 +21,7 @@ public class Graduation {
             countClass++;
             yearGrade +=currentGrade;
         }
-        if(countClass==12){
+        if(countClass>=12){
             System.out.printf("%s graduated. Average grade: %.2f",
                     name, yearGrade/12);
         }
