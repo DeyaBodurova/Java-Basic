@@ -4,10 +4,10 @@ public class Graduation {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         String name = sc.nextLine();
-        int countClass = 0;
+        int countClass = 1;
         double yearGrade = 0;
         int fails = 0;
-        while (countClass < 12){
+        while (countClass <= 12){
             double currentGrade = Double.parseDouble(sc.nextLine());
             if(currentGrade < 4) {
                 fails++;
