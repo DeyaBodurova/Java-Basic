@@ -8,7 +8,7 @@ public class Graduation {
         double yearGrade = 0;
         int fails = 0;
         while (countClass < 12){
-            double currentGrade = Integer.parseInt(sc.nextLine());
+            double currentGrade = Double.parseDouble(sc.nextLine());
             if(currentGrade < 4) {
                 fails++;
                 if(fails>1){
