@@ -5,7 +5,7 @@ public class OldBooks {
         Scanner sc = new Scanner(System.in);
         String title = sc.nextLine();
         String input = sc.nextLine();
-        int countBooks = 1;
+        int countBooks = 0;
         boolean isFound = false;
         while (!input.equals("No More Books")) {
             if (input.equals(title)) {
