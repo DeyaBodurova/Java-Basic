@@ -6,7 +6,7 @@ public class ExamPreparation {
         int weekGrades = Integer.parseInt(sc.nextLine());
         int countPoorGrades =0;
         int countTasks =0;
-        int totalGrades=0;
+        double totalGrades=0;
         boolean isFailed = false;
         String input = sc.nextLine();
         String taskName ="";
@@ -27,7 +27,7 @@ public class ExamPreparation {
             input = sc.nextLine();
         }
         if (!isFailed) {
-            System.out.println("Average score: " +totalGrades/countTasks);
+            System.out.printf("Average score: %.2f\n",totalGrades/countTasks);
             System.out.println("Number of problems: " +countTasks);
             System.out.println("Last problem: " +taskName);
         }
