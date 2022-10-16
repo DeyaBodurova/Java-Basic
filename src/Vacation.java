@@ -8,7 +8,7 @@ public class Vacation {
         int countSpendOnARoad = 0;
         int days=0;
         boolean isEnoughMoney =false;
-        while (money>=moneyNeeded) {
+        while (money<=moneyNeeded) {
             String action = sc.nextLine();
             double saveSpend = Double.parseDouble(sc.nextLine());
             days++;
