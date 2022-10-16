@@ -14,7 +14,11 @@ public class Vacation {
             days++;
             if (action.equals("spend")) {
                 countSpendOnARoad++;
-                money-=saveSpend;
+                if(money >= saveSpend) {
+                    money -= saveSpend;
+                } else {
+                    money = 0;
+                }
                 if(countSpendOnARoad>=5){
                     break;
                 }
