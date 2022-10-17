@@ -11,4 +11,5 @@ public class YardGreening {
         System.out.printf("The final price is: %.2f lv.", finalSum);
         System.out.printf("The discount is: %.2f lv.", discount);
     }
+
 }
