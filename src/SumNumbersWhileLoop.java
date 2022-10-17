@@ -11,4 +11,5 @@ public class SumNumbersWhileLoop {
         }
         System.out.println(sum);
     }
+
 }
