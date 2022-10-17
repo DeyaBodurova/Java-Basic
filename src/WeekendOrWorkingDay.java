@@ -10,4 +10,5 @@ public class WeekendOrWorkingDay {
             default -> System.out.println("Error");
         }
     }
+
 }
