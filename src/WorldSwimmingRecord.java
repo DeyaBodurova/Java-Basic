@@ -16,4 +16,5 @@ public class WorldSwimmingRecord {
             System.out.printf("No, he failed! He was %.2f seconds slower.", totalTime - recordSec);
         }
     }
+
 }
