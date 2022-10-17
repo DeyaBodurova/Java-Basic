@@ -11,4 +11,5 @@ public class SuppliesForSchool {
         double finalSum = sum - (sum * (discount * 0.01));
         System.out.println(finalSum);
     }
+
 }
