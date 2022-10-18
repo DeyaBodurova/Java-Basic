@@ -10,4 +10,5 @@ public class Sequence2kPlus1 {
             a=a*2+1;
         }
     }
+
 }
