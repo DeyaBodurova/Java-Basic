@@ -9,4 +9,5 @@ public class ReadText {
             text=sc.nextLine();
         }
     }
+
 }
