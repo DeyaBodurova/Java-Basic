@@ -8,4 +8,5 @@ public class PetShop {
         double sum = dogsPackage * 2.5 + (catsPackage * 4);
         System.out.printf("%.2f lv.", sum);
     }
+
 }
