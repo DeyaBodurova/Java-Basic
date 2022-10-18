@@ -20,4 +20,5 @@ public class OddEvenSum {
             System.out.println("No\nDiff = " + Math.abs(evenSum - oddSum));
         }
     }
+
 }
