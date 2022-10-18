@@ -23,4 +23,5 @@ public class Oscars {
             System.out.printf("Sorry, %s you need %.1f more!", actorName, 1250.5 - academyPoints);
         }
     }
+
 }
