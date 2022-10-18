@@ -10,4 +10,5 @@ public class NumberInRange {
             System.out.println("No");
         }
     }
+
 }
