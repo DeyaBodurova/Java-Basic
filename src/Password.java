@@ -12,4 +12,5 @@ public class Password {
         System.out.printf("Welcome %s!",username);
 
     }
+
 }
