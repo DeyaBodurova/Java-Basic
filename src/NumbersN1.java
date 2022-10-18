@@ -8,4 +8,5 @@ public class NumbersN1 {
             System.out.println(i);
         }
     }
+
 }
