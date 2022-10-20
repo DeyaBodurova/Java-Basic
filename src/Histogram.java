@@ -35,4 +35,5 @@ public class Histogram {
         System.out.println(String.format("%.2f", g) + "%");
 
     }
+
 }
