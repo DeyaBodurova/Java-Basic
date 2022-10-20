@@ -7,4 +7,5 @@ public class GreaterNumber {
         int b = Integer.parseInt(sc.nextLine());
         System.out.println(Math.max(a, b));
     }
+
 }
