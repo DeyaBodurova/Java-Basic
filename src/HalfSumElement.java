@@ -21,4 +21,5 @@ public class HalfSumElement {
             System.out.println("No\nDiff = " + Math.abs(maxNum - sum));
         }
     }
+
 }
