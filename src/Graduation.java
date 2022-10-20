@@ -26,4 +26,5 @@ public class Graduation {
                     name, yearGrade/12);
         }
     }
+
 }
