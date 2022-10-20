@@ -11,4 +11,5 @@ public class Num1to10 {
         System.out.println(9);
         System.out.println(10);
     }
+
 }
