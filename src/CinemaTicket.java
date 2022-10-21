@@ -10,5 +10,4 @@ public class CinemaTicket {
             case "Saturday", "Sunday" -> System.out.println(16);
         }
     }
-
 }
