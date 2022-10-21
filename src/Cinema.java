@@ -15,5 +15,4 @@ public class Cinema {
         double cost = rows * cols * ticketPrice;
         System.out.printf("%.2f leva", cost);
     }
-
 }
