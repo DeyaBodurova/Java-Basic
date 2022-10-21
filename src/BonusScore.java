@@ -19,5 +19,6 @@ public class BonusScore {
         }
         System.out.println(bonus);
         System.out.println(num + bonus);
+
     }
 }
