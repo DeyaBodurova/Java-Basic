@@ -28,5 +28,4 @@ public class FishingBoat {
             System.out.printf("Not enough money! You need %.2f leva.", Math.abs(boatPrice - budget));
         }
     }
-
 }
