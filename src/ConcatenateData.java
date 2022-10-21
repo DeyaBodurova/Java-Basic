@@ -7,7 +7,7 @@ public class ConcatenateData {
         String lastName = sc.nextLine();
         String age = sc.nextLine();
         String town = sc.nextLine();
-        System.out.println("You are " + firstName + " " + lastName + ", a " + age + "-years old person from " + town + ".");
+        System.out.println("You are " + firstName + " " + lastName + ", a " + age + "-years old person from "
+                + town + ".");
     }
-
 }
