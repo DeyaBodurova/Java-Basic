@@ -32,5 +32,4 @@ public class ExamPreparation {
             System.out.println("Last problem: " + taskName);
         }
     }
-
 }
