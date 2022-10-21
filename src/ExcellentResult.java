@@ -8,5 +8,4 @@ public class ExcellentResult {
             System.out.println("Excellent!");
         }
     }
-
 }
