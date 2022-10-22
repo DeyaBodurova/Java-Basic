@@ -6,6 +6,4 @@ public class InchToCm {
         double sum = Double.parseDouble(sc.nextLine()) * 2.54;
         System.out.println(sum);
     }
-
 }
-
