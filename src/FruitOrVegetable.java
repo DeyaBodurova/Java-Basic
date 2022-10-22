@@ -10,5 +10,4 @@ public class FruitOrVegetable {
             default -> System.out.println("unknown");
         }
     }
-
 }
