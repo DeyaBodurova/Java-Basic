@@ -33,7 +33,5 @@ public class Histogram {
         System.out.println(String.format("%.2f", f) + "%");
         double g = (above800 / n) * 100;
         System.out.println(String.format("%.2f", g) + "%");
-
     }
-
 }
