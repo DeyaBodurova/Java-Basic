@@ -6,5 +6,4 @@ public class GreetingByName {
         String name = sc.nextLine();
         System.out.printf("Hello, %s!", name);
     }
-
 }
