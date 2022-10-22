@@ -7,24 +7,21 @@ public class Graduation {
         int countClass = 1;
         double yearGrade = 0;
         int fails = 0;
-        while (countClass <= 12){
+        while (countClass <= 12) {
             double currentGrade = Double.parseDouble(sc.nextLine());
-            if(currentGrade < 4) {
+            if (currentGrade < 4) {
                 fails++;
-                if(fails>1){
-                    System.out.printf("%s has been excluded at" +
-                            " %d grade",name,countClass);
+                if (fails > 1) {
+                    System.out.printf("%s has been excluded at %d grade", name, countClass);
                     break;
                 }
                 continue;
             }
             countClass++;
-            yearGrade +=currentGrade;
+            yearGrade += currentGrade;
         }
-        if(countClass>=12){
-            System.out.printf("%s graduated. Average grade: %.2f",
-                    name, yearGrade/12);
+        if (countClass >= 12) {
+            System.out.printf("%s graduated. Average grade: %.2f", name, yearGrade / 12);
         }
     }
-
 }
