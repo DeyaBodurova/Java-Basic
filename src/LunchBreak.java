@@ -19,5 +19,4 @@ public class LunchBreak {
                     movie, Math.ceil(timeEpisode - totalTime));
         }
     }
-
 }
