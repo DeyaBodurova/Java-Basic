@@ -14,5 +14,4 @@ public class MinNumber {
         }
         System.out.println(minNum);
     }
-
 }
