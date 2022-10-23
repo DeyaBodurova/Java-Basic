@@ -20,5 +20,4 @@ public class LeftAndRightSum {
             System.out.printf("No, diff = %d", Math.abs(leftSum - rightSum));
         }
     }
-
 }
