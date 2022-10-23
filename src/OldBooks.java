@@ -19,9 +19,7 @@ public class OldBooks {
             System.out.println("The book you search is not here!");
             System.out.printf("You checked %d books.", countBooks);
         } else {
-            System.out.printf("You checked %d books and " +
-                    "found it.", countBooks);
+            System.out.printf("You checked %d books and found it.", countBooks);
         }
     }
-
 }
