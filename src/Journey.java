@@ -40,5 +40,4 @@ public class Journey {
         System.out.printf("Somewhere in %s\n", destination);
         System.out.printf("%s - %.2f", type, moneySpend);
     }
-
 }
