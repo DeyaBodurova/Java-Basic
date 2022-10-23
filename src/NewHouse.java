@@ -37,5 +37,4 @@ public class NewHouse {
             System.out.printf("Not enough money, you need %.2f leva more.", Math.abs(total - budget));
         }
     }
-
 }
