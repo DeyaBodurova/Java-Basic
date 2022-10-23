@@ -5,5 +5,4 @@ public class Num1To100 {
             System.out.println(i + 1);
         }
     }
-
 }
