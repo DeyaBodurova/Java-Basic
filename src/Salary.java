@@ -21,5 +21,4 @@ public class Salary {
             System.out.println(salary);
         }
     }
-
 }
