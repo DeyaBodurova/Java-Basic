@@ -8,5 +8,4 @@ public class RectangleArea {
         int area = a * b;
         System.out.println(area);
     }
-
 }
