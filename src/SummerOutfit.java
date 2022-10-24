@@ -47,5 +47,4 @@ public class SummerOutfit {
         }
         System.out.printf("It's %d degrees, get your %s and %s.", degrees, outfit, shoes);
     }
-
 }
