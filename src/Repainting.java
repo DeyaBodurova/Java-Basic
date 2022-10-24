@@ -15,5 +15,4 @@ public class Repainting {
         double finalSum = sumSupplies + workersPayment;
         System.out.print(finalSum);
     }
-
 }
