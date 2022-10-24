@@ -37,5 +37,4 @@ public class SkiTrip {
         }
         System.out.printf("%.2f", price);
     }
-
 }
