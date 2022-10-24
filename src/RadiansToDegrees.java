@@ -7,5 +7,4 @@ public class RadiansToDegrees {
         double result = angleRadians * 180 / Math.PI;
         System.out.println(result);
     }
-
 }
