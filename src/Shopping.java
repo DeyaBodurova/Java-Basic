@@ -20,5 +20,4 @@ public class Shopping {
             System.out.printf("Not enough money! You need %.2f leva more!", Math.abs(total - budget));
         }
     }
-
 }
