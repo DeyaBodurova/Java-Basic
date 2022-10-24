@@ -5,10 +5,9 @@ public class Sequence2kPlus1 {
         Scanner sc = new Scanner(System.in);
         int num = Integer.parseInt(sc.nextLine());
         int a = 1;
-        while (a<=num){
+        while (a <= num) {
             System.out.println(a);
-            a=a*2+1;
+            a = a * 2 + 1;
         }
     }
-
 }
