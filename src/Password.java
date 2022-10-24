@@ -7,10 +7,8 @@ public class Password {
         String password = sc.nextLine();
         String passwordAttempt = sc.nextLine();
         while (!passwordAttempt.equals(password)) {
-            passwordAttempt=sc.nextLine();
+            passwordAttempt = sc.nextLine();
         }
-        System.out.printf("Welcome %s!",username);
-
+        System.out.printf("Welcome %s!", username);
     }
-
 }
