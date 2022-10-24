@@ -36,5 +36,4 @@ public class SmallShop {
         }
         System.out.printf("%.2f", sum);
     }
-
 }
