@@ -10,5 +10,6 @@ public class SumNumbersWhileLoop {
             sum += a;
         }
         System.out.println(sum);
+
     }
 }
