@@ -16,5 +16,4 @@ public class SpeedInfo {
             System.out.println("extremely fast");
         }
     }
-
 }
