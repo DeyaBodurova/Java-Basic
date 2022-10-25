@@ -22,5 +22,4 @@ public class SumSeconds {
             System.out.printf("%d:%d", min, sec);
         }
     }
-
 }
