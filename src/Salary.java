@@ -20,5 +20,6 @@ public class Salary {
         if (salary > 0) {
             System.out.println(salary);
         }
+
     }
 }
