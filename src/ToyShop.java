@@ -23,5 +23,4 @@ public class ToyShop {
             System.out.printf("Not enough money! %.2f lv needed.", Math.abs(totalToysSum - tripPrice));
         }
     }
-
 }
