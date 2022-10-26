@@ -59,5 +59,4 @@ public class TradeCommissions {
             System.out.printf("%.2f", commission);
         }
     }
-
 }
