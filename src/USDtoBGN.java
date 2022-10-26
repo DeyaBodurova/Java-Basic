@@ -6,5 +6,4 @@ public class USDtoBGN {
         double lv = Double.parseDouble(sc.nextLine()) * 1.79549;
         System.out.printf("%.2f", lv);
     }
-
 }
