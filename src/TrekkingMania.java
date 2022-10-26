@@ -26,7 +26,7 @@ public class TrekkingMania {
             }
         }
         System.out.printf("%.2f%%\n", (musalaCount / totalPeople) * 100);
-        System.out.printf("%.2f%%\n", (kilimangaroCount / totalPeople) * 100);
+        System.out.printf("%.2f%%\n", (monblanCount / totalPeople) * 100);
         System.out.printf("%.2f%%\n", (kilimangaroCount / totalPeople) * 100);
         System.out.printf("%.2f%%\n", (k2Count / totalPeople) * 100);
         System.out.printf("%.2f%%\n", (everestCount / totalPeople) * 100);
