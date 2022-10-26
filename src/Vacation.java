@@ -38,5 +38,4 @@ public class Vacation {
             System.out.println(days);
         }
     }
-
 }
