@@ -15,5 +15,4 @@ public class WorkingHours {
             System.out.println("closed");
         }
     }
-
 }
