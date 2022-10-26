@@ -10,5 +10,4 @@ public class VacationBooksList {
         int hoursPerDay = totalHours / days;
         System.out.println(hoursPerDay);
     }
-
 }
