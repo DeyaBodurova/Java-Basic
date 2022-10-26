@@ -24,5 +24,4 @@ public class TennisRanklist {
         System.out.printf("%.2f%%",
                 (countWins / tournaments) * 100);
     }
-
 }
