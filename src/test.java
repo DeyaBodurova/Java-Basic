@@ -18,4 +18,3 @@
 //        What is functional testing?
 //        What tools did you use for BE testing?
 //        How did you test the API in your last project?
-//        What would you do if you need to test the API, but it is not ready?
