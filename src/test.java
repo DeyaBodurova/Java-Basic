@@ -29,7 +29,6 @@
 //        What is ag
 //        What is agile?
 //        Did you perform any DB testing? And How?
-//        You are on board with the projects, and you need to test a story that has a missing part of it, what would you do?
 //        What is estimation?
 //        How will you estimate stories?
 //        How will you choose how many points one story needs?
