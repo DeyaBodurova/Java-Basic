@@ -28,4 +28,3 @@
 //        What is estimation?
 //        How will you estimate stories?
 //        How will you choose how many points one story needs?
-//        What points did you use?
