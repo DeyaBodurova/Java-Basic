@@ -23,4 +23,3 @@
 //        Have you done any Automation testing?
 //        What tools did you use?
 //        How will you rate your knowledge for Selenium?
-//        What is ag
