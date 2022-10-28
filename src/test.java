@@ -29,4 +29,3 @@
 //        How will you estimate stories?
 //        How will you choose how many points one story needs?
 //        What points did you use?
-//        What would you do if you estimated a story with some points, and in the middle of the sprint you find out that the estimation is not correct?
