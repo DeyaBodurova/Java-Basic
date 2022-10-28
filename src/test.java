@@ -28,7 +28,6 @@
 //        How will you rate your knowledge for Selenium?
 //        What is ag
 //        What is agile?
-//        Did you perform any DB testing? And How?
 //        What is estimation?
 //        How will you estimate stories?
 //        How will you choose how many points one story needs?
