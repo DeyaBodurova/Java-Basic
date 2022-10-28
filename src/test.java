@@ -13,7 +13,6 @@
 //        What tools do you use?
 //        Is it part from the process?
 //        iru-itmb-xfg
-//
 //        Dimitar Panayotov16:13 ч.
 //        Introduction ?
 //        Tell me about your project?
