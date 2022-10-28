@@ -31,4 +31,3 @@
 //        What points did you use?
 //        What would you do if you estimated a story with some points, and in the middle of the sprint you find out that the estimation is not correct?
 //        How important is automation
-//        What tools do you use?
