@@ -25,4 +25,3 @@
 //        How will you rate your knowledge for Selenium?
 //        What is ag
 //        What is agile?
-//        How will you estimate stories?
