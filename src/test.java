@@ -20,4 +20,3 @@
 //        How did you test the API in your last project?
 //        What would you do if you need to test the API, but it is not ready?
 //        What would you do if you are in a project and you have to test 50 test cases, but you have capability only to execute for 30 ?
-//        Have you done any Automation testing?
