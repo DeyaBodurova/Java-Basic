@@ -1,5 +1,4 @@
 //How will you rate your knowledge for Selenium?
-//        What is ag
 //        What is agile?
 //        What requirements analysis techniques do you know?
 //        Did you perform any DB testing? And How?
