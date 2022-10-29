@@ -19,4 +19,3 @@ public class AccountBalance {
         System.out.printf("Total: %.2f", money);
     }
 }
-
